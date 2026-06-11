@@ -1,0 +1,12 @@
+- name: Ron
+  slug: ron
+  bio: null
+  profile_image: //www.gravatar.com/avatar/900c8abed60baf6c448dcc8317741b1c?s=250&d=mm&r=x
+  website: null
+  twitter: null
+- name: Ghost
+  slug: ghost
+  bio: You can delete this user to remove all the welcome posts
+  profile_image: https://static.ghost.org/v3.0.0/images/ghost.png
+  website: https://ghost.org
+  twitter: ghost

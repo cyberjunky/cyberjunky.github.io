@@ -1,0 +1,52 @@
+# Jekyll configuration for GitHub Pages
+# ---------------------------------------------------------------------------
+# Edit title/description/url to match your blog, then commit.
+title: CyberJunky's Blog
+description: Thing I have written down
+author: Ron
+
+# IMPORTANT for GitHub Pages:
+#   - User/org site (you.github.io):     leave baseurl empty, set url to https://you.github.io
+#   - Project site (you.github.io/repo): set baseurl to "/repo"
+url: "https://cyberjunky.github.io"
+baseurl: ""
+
+# GitHub Pages builds Jekyll automatically with this theme (no CI needed).
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Pretty post URLs that mirror Ghost's default (/slug/).
+permalink: /:slug/
+
+# Pull the static pages produced by the converter into the build.
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+paginate: 10
+paginate_path: "/page:num/"
+
+exclude:
+  - ghost_to_jekyll.py
+  - requirements.txt
+  - README.md
+  - .env
+  - .env.example
+  - Gemfile
+  - Gemfile.lock
+  - vendor
