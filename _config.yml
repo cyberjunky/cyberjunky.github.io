@@ -14,6 +14,25 @@ baseurl: ""
 # GitHub Pages builds Jekyll automatically with this theme (no CI needed).
 theme: minima
 
+# Curate which pages appear in the top nav (minima otherwise lists ALL pages,
+# which produced duplicates like two "About this site" entries). Order matters.
+header_pages:
+  - _pages/about.md
+  - _pages/github.md
+  - _pages/knx.md
+  - _pages/solar-power.md
+  - _pages/tags.md
+
+# Show post excerpts on the home page list.
+show_excerpts: true
+
+# Posts wrap their body in {% raw %}...{% endraw %}. The default excerpt
+# separator ("\n\n") would slice an excerpt that opens {% raw %} without closing
+# it, breaking the build. Using a token that never appears makes auto-excerpts
+# fall back to the whole (balanced) body. Posts with an explicit front-matter
+# excerpt are unaffected.
+excerpt_separator: "<!--page-break-never-->"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

@@ -10,7 +10,10 @@
       "Bash(gh run *)",
       "Bash(python tools/fix_liquid_raw.py)",
       "Bash(git add *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(echo \"=== exit: $? ===\")",
+      "Bash(curl -sI https://cyberjunky.nl)",
+      "Bash(curl -s https://cyberjunky.nl)"
     ]
   }
 }

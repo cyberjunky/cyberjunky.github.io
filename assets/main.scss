@@ -1,0 +1,27 @@
+---
+# Front matter (even empty) tells Jekyll to process this as SCSS.
+# Overrides the minima gem's stylesheet: imports it, then adds tweaks.
+---
+@import "minima";
+
+/* Keep the site title from colliding with the nav links. */
+.site-title {
+  margin-right: 1.5rem;
+}
+
+.site-nav .page-link {
+  margin-left: 1.25rem;
+}
+
+/* Feature image at the top of a post. */
+.post-feature-image img {
+  display: block;
+}
+
+/* Thumbnails in the home-page post list. */
+.post-list .post-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 0.5rem 0 0.75rem;
+}
