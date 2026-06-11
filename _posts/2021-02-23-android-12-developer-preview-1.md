@@ -26,6 +26,7 @@ ghost_id: 65cc82d8e7fddf00012febb4
 ghost_url: https://cyberjunky.nl/android-12-developer-preview-1/
 ---
 
+{% raw %}
 A developer preview of the new Android 12 is available, I installed it on my Pixel 3 XL, and it works fine, a lot of good news on social media too.
 
 Nevertheless this can be worse with DP2 or later, so only do this on a spare phone, and if you know what you are doing.
@@ -68,3 +69,4 @@ And do this:
 adb.exe reboot bootloader
 fastboot.exe flashing lock
 ```
+{% endraw %}

@@ -33,6 +33,16 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Bundle the toolkit download (always fresh)
+        run: |
+          rm -rf _toolkit
+          mkdir -p _toolkit/.github/workflows assets/downloads
+          cp ghost_to_jekyll.py requirements.txt _config.yml Gemfile \
+             .env.example .gitignore README.md index.html _toolkit/
+          cp .github/workflows/jekyll.yml _toolkit/.github/workflows/
+          rm -f assets/downloads/ghost-to-jekyll-toolkit.zip
+          (cd _toolkit && zip -r ../assets/downloads/ghost-to-jekyll-toolkit.zip .)
+
       - name: Build with Jekyll
         # baseurl is injected from the Pages config so project sites work too.
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"

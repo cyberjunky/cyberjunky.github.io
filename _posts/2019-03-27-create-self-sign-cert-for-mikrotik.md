@@ -33,6 +33,7 @@ ghost_id: 65cc82d8e7fddf00012feb8b
 ghost_url: https://cyberjunky.nl/create-self-sign-cert-for-mikrotik/
 ---
 
+{% raw %}
 ```
 /certificate add name=SSL common-name=SSL key-size=2048
 /certificate create-certificate-request template=SSL key-passphrase=mypassword123
@@ -77,3 +78,4 @@ Finally, set the www-ssl service to use the certificate if not already linked
 ```
 
 Enjoy!
+{% endraw %}

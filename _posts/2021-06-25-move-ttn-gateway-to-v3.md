@@ -21,6 +21,7 @@ ghost_id: 65cc82d8e7fddf00012febb7
 ghost_url: https://cyberjunky.nl/move-ttn-gateway-to-v3/
 ---
 
+{% raw %}
 Finally had some time to move my TTN gateway from V2 to V2 network. Here are the steps and screenshots.  
   
 Prerequisites:  
@@ -66,3 +67,4 @@ A few moments later you will see it online, if all goes well:
 ![](/assets/images/2021/06/Screenshot-from-2021-06-25-14-41-44.png)
 
 Success!
+{% endraw %}

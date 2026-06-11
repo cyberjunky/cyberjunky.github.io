@@ -45,6 +45,7 @@ ghost_id: 65cc82d8e7fddf00012feb90
 ghost_url: https://cyberjunky.nl/compile-package-for-alpine-linux/
 ---
 
+{% raw %}
 Install Alpine Linux inside Virtual Box using [this image](https://wiki.alpinelinux.org/wiki/Install_Alpine_on_VirtualBox), assign to DVD device, set network adapter to bridged, boot it, and login with root
 
 Then start the setup script
@@ -119,3 +120,4 @@ Resources:
 <https://wiki.alpinelinux.org/wiki/Installation#Installation_Handbook>  
 <https://wiki.alpinelinux.org/wiki/Alpine_Linux_Init_System>  
 <https://wiki.alpinelinux.org/wiki/Creating_an_Alpine_package#Setup_your_system_and_account>
+{% endraw %}

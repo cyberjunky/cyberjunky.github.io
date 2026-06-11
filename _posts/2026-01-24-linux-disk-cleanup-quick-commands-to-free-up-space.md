@@ -22,6 +22,7 @@ ghost_id: 69752dec79baac0001dcd1c3
 ghost_url: https://cyberjunky.nl/linux-disk-cleanup-quick-commands-to-free-up-space/
 ---
 
+{% raw %}
 Running low on disk space? It happens to the best of us. Whether it's accumulated cache files, forgotten Docker images, or orphaned Python virtual environments, disk space has a way of disappearing. This quick reference guide covers the most effective commands to reclaim your precious storage.
 
 ## Overview
@@ -165,3 +166,4 @@ With these commands in your toolkit, you can quickly reclaim gigabytes of disk s
 ---
 
 *Written for CyberJunky's Blog*
+{% endraw %}

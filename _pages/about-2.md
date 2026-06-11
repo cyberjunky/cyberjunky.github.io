@@ -22,6 +22,7 @@ ghost_id: 65cc82d8e7fddf00012feb65
 ghost_url: https://cyberjunky.nl/about-2/
 ---
 
+{% raw %}
 CyberJunky's Blog is an independent publication launched in November 2022 by Ron. If you subscribe today, you'll get full access to the website as well as email newsletters about new content when it's available. Your subscription makes this site possible, and allows CyberJunky's Blog to continue to exist. Thank you!
 
 ### Access all areas
@@ -41,3 +42,4 @@ Join a community of other subscribers who share the same interests.
 ### Start your own thing
 
 Enjoying the experience? Get started for free and set up your very own subscription business using [Ghost](https://ghost.org), the same platform that powers this website.
+{% endraw %}

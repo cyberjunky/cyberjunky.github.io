@@ -8,7 +8,7 @@ author: Ron
 # IMPORTANT for GitHub Pages:
 #   - User/org site (you.github.io):     leave baseurl empty, set url to https://you.github.io
 #   - Project site (you.github.io/repo): set baseurl to "/repo"
-url: "https://cyberjunky.github.io"
+url: "https://cyberjunky.nl"
 baseurl: ""
 
 # GitHub Pages builds Jekyll automatically with this theme (no CI needed).
@@ -50,3 +50,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - tools
+  - _toolkit

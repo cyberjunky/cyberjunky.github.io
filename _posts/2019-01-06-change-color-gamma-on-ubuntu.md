@@ -15,6 +15,7 @@ ghost_id: 65cc82d8e7fddf00012feb68
 ghost_url: https://cyberjunky.nl/change-color-gamma-on-ubuntu/
 ---
 
+{% raw %}
 ![xgamma](/assets/images/2019/01/xgamma.png)
 
 Install xgamma-gui:
@@ -33,3 +34,4 @@ Add to Makefile:
     $ qmake && make && make install
     $ ./XgammaGui
 ```
+{% endraw %}

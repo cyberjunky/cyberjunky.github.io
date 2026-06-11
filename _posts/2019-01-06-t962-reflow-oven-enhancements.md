@@ -62,6 +62,7 @@ ghost_id: 65cc82d8e7fddf00012feb7e
 ghost_url: https://cyberjunky.nl/t962-reflow-oven-enhancements/
 ---
 
+{% raw %}
 ![reflow](/assets/images/2019/01/reflow.jpg)  
 Some links how to make your cheap reflow oven better, my todo list…
 
@@ -86,3 +87,4 @@ Not recommended for smaller T962!
 <https://github.com/UnifiedEngineering/T-962-improvements/wiki/System-fan-control>
 
 ## Apply missing thermal grease to TRIAC
+{% endraw %}

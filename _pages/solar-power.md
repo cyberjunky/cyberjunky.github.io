@@ -65,6 +65,7 @@ ghost_id: 65cc82d8e7fddf00012feb84
 ghost_url: https://cyberjunky.nl/solar-power/
 ---
 
+{% raw %}
 In the Summer of 2013, seven solar panels were installed on the  
 house, unfortunately that was the maximum amount we were able to fit on  
 the roof.
@@ -97,3 +98,4 @@ below to the [pvoutput.org](http://pvoutput.org) portal.
 # Attachments:
 
 <https://www.zonnepanelen.net/nl/pdf/panels/ZXP6-60-235-255W_V1405_EN1_LQ.pdf>
+{% endraw %}

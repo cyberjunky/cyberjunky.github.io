@@ -48,6 +48,7 @@ ghost_id: 65cc82d8e7fddf00012feb82
 ghost_url: https://cyberjunky.nl/virtualbox-pci-passthrough-notes/
 ---
 
+{% raw %}
 Some notes regarding exposing a PCI card inside a Virtualbox VM
 
 Determine PCI ID on host:
@@ -95,3 +96,4 @@ Attach PCI card to VM:
 ```
 $ VBoxManage modifyvm "node-server" --pciattach 01:00.0@01:01.0
 ```
+{% endraw %}

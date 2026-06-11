@@ -32,6 +32,7 @@ ghost_id: 65cc82d8e7fddf00012febab
 ghost_url: https://cyberjunky.nl/my-knx-rf-experiences/
 ---
 
+{% raw %}
 I have some sections in my house where it's impossible to get the green lifeline aka the KNX Cable to reach.
 
 So I started to investigate the possibility of using KNX RF for those locations. Since it's rather new (in KNX terms) there are already several types of KNX RF, I needed to find out what works together and note it down.
@@ -160,3 +161,4 @@ To check the signal strength of the connected KNX RF devices a free ETS APP can 
 ![](/assets/images/2020/10/range3.png)
 
 ![](/assets/images/2020/10/range4-1.png)
+{% endraw %}

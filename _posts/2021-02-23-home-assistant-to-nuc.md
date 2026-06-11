@@ -37,6 +37,7 @@ ghost_id: 65cc82d8e7fddf00012febaf
 ghost_url: https://cyberjunky.nl/home-assistant-to-nuc/
 ---
 
+{% raw %}
 My D.I.Y. i3 board running Ubuntu 18 and Docker with Supervised HA for a long became unsupported, and in unhealthy state according to Hass.io, so I was looking at a Intel NUC to test running Home Assistant OS with add-ons only. And possibly create a add-on or two if needed.
 
 ### Hardware
@@ -115,3 +116,4 @@ I installed the following add-ons:
 ![](/assets/images/2021/02/addons.png)
 
 NOTE: I enabled Fast Boot but wasn't able to enter the BIOS setup afterwards via F2, fix it like this: Switch on the NUC by holding the power button for 3 seconds then the Power menu should be shown, press F3 to disable Fast Boot.
+{% endraw %}

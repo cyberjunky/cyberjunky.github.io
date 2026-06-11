@@ -19,6 +19,7 @@ ghost_id: 65cc82d8e7fddf00012feb77
 ghost_url: https://cyberjunky.nl/ocz-vertex-2-ssd-r-i-p/
 ---
 
+{% raw %}
 I'm the proud owner of a dead OCZ Vertex 2 SSD.  
 It was working for more than 1,5 years in a Ubuntu server without any  
 problem.  
@@ -142,3 +143,4 @@ accessed at all.
 There are some of serial/JTAG ports on the board btw.
 
 Resource: <http://www.techpowerup.com/forums/showthread.php?t=154610>
+{% endraw %}

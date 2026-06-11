@@ -22,6 +22,7 @@ ghost_id: 65cc82d8e7fddf00012febb1
 ghost_url: https://cyberjunky.nl/jung-multistation/
 ---
 
+{% raw %}
 ### Art. No. 23066REGHE
 
 I bought a few of these modules some time ago, they were used for a short period in holiday homes and replaced by another non KNX solution. Recently I had some time to look at them in detail, configure them with ETS5 and test their functionality.
@@ -128,3 +129,4 @@ Later install and connect cheaper non KNX motions sensors, like described here: 
 Online catalog: [[JUNG - Multi station Actuators for rail mounting Devices for rail mounting KNX OVERVIEW](https://www.jung.de/en/online-catalogue/350288497/)](https://www.jung.de/en/online-catalogue/350288497/)
 
 Product Information: <https://downloads.jung.de/public/en/pdf/productdocumentation/en_23066REGHE_td_21022018.pdf>
+{% endraw %}

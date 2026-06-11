@@ -16,6 +16,7 @@ ghost_id: 65cc82d8e7fddf00012feb7f
 ghost_url: https://cyberjunky.nl/ubuntu-youtube-player/
 ---
 
+{% raw %}
 Was looking for a tool to backup some movies from YouTube to local  
 disk.  
 Found Minitube, it appears to be an excellent player too.
@@ -26,3 +27,4 @@ Found Minitube, it appears to be an excellent player too.
 
 Just install and start it, search for a keyword and it plays!  
 Click on the down arrow to save the selected movie.
+{% endraw %}

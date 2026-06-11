@@ -17,6 +17,7 @@ ghost_id: 65cc82d8e7fddf00012febbb
 ghost_url: https://cyberjunky.nl/quick-webserver-for-toon-home-assistent-development/
 ---
 
+{% raw %}
 ```
 import http.server
 import socketserver
@@ -66,3 +67,4 @@ finally:
     print('Closing')
     my_server.server_close()
 ```
+{% endraw %}

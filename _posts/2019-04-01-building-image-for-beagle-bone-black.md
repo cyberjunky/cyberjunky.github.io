@@ -21,6 +21,7 @@ ghost_id: 65cc82d8e7fddf00012feb8d
 ghost_url: https://cyberjunky.nl/building-image-for-beagle-bone-black/
 ---
 
+{% raw %}
 Installation commands and log for building your own image with KNX and 1-wire support.
 
 ## Install and configure the 1-wire daemon
@@ -261,3 +262,4 @@ $ dpkg-buildpackage -b -uc
 $ cd ..
 $ sudo dpkg -i knxd_*.deb knxd-tools_*.deb
 ```
+{% endraw %}

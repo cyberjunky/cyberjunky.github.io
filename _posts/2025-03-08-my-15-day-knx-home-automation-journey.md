@@ -26,6 +26,7 @@ ghost_id: 67cc4e9468401d00015cf689
 ghost_url: https://cyberjunky.nl/my-15-day-knx-home-automation-journey/
 ---
 
+{% raw %}
 ### Welcome to My 15-Day KNX Home Automation Journey with Home Assistant!
 
 Hello, home automation enthusiasts! I'm thrilled to announce that I'm embarking on an exciting 30-day journey to set up a comprehensive KNX-based home automation system using Home Assistant. Over the next month, I'll be diving deep into the world of KNX devices, exploring their capabilities, and integrating them seamlessly into my smart home setup.
@@ -37,3 +38,4 @@ Stay tuned for daily updates, tutorials, and reviews as I navigate the ins and o
 Happy automating!
 
 Ron
+{% endraw %}

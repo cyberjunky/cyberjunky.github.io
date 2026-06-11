@@ -29,6 +29,7 @@ ghost_id: 65cc82d8e7fddf00012febad
 ghost_url: https://cyberjunky.nl/knx-power-line/
 ---
 
+{% raw %}
 Like I wrote [here](https://cyberjunky.nl/updating-a-gira-2167-00-ip-router/) I wanted to see if I could connect my Shed with KNX via power-line since I have no means of getting the KNX data bus there, and KNX RF doesn't support extending a line over KNX RF. (Yet, I don't know what ETS6 brings)
 
 I could have done all with KNX-RF(+) devices, but there are no KNX RF weather stations.
@@ -79,3 +80,4 @@ I plugged in the remote KNX installation (I also needed an extra KNX power suppl
 You also see the infamous SIEMENS data-rails 190 5WG1-190-8AB02 in action (well actually you can't see it because it's covered by all the modules), but all SIEMENS devices are connected to the KNX bus by using it, the REG 191/01 5WG1 191–5AB01 module is used to get the IP router connected to that rail, and the weather-station will use it also later, saves on wiring though.
 
 **Note: this setup is fine for an residential hobbyist, but not for industrial or commercial purposes.**
+{% endraw %}

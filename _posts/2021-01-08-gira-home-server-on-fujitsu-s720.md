@@ -31,6 +31,7 @@ ghost_id: 65cc82d8e7fddf00012febb0
 ghost_url: https://cyberjunky.nl/gira-home-server-on-fujitsu-s720/
 ---
 
+{% raw %}
 IMPORTANT NOTE: This setup is pure for testing/HSL development/knowledge gathering only, don't use this in production environment or for replacement of the Home Server hardware. I'm not responsable for any possible damages!
 
 For plugin development and to check out version 4.11 I bought a refurbished Fujitsu Futro S720 thin client.
@@ -66,3 +67,4 @@ Create an USB stick to install firmware and transfer your first project
 3. Boot it and await the 6 beeps, you can reboot now and check the console for errors.
 4. Transfer your Project (for setting network and password settings) using the same stick and reboot. (you can combine these steps)
 5. The HS should be reachable via network now.
+{% endraw %}

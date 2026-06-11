@@ -26,6 +26,7 @@ ghost_id: 65cc82d8e7fddf00012feb86
 ghost_url: https://cyberjunky.nl/omnik-inverter-serial-sensor-for-home-assistant/
 ---
 
+{% raw %}
 For a long time I wanted to disconnect my Omnik Inverter from my WiFi network and stop uploading it's data to the Omnik portal <https://www.omnikportal.com/>
 
 The Omnik inverter also couldn't connect to the Meraki AP I have, it showed an empty SSID for the MAC addresses, (it probably didn't understand the multiple SSID broadcast-ed from one AP) so I had to enable a separate Wifi network via my FRITZ!Box just to get it connected. And I also queried the Omnik for it's data using Omnik-Stats-Logger (<https://github.com/Woutrrr/Omnik-Data-Logger>) sending the data to PVoutput, and then downloading it back into Home Assistant. ;P
@@ -201,3 +202,4 @@ Resources:
 - <https://wiki.wemos.cc/products:d1:d1_mini>
 - <https://www.dennisdeal.com/products/wemosr-0-66-inch-oled-shield-for-wemos-d1-mini-64x48-iic-i2c-compatible>
 - <https://www.home-assistant.io/components/sensor.serial/>
+{% endraw %}

@@ -40,6 +40,7 @@ ghost_id: 65cc82d8e7fddf00012feba7
 ghost_url: https://cyberjunky.nl/installing-debian-10-on-beagle-bone-black-cape-knx-1-wire/
 ---
 
+{% raw %}
 Setup image and install tools for building your a KNX IP interface for ETS5 and 1-wire support.
 
 ## Install Debian 10
@@ -310,3 +311,4 @@ knx:
 ```
 
 ![](/assets/images/2020/09/temp.png)
+{% endraw %}

@@ -25,6 +25,7 @@ ghost_id: 65cc82d8e7fddf00012feb87
 ghost_url: https://cyberjunky.nl/esphome-revised-aka-native-api/
 ---
 
+{% raw %}
 ESPhomeyaml was already a great add-on for Home Assistant, you could program, compile and flash an ESP node just from your browser. And if you wanted to update it, you just compiled it again and used OTA flashing, auto-reboot node and up again.
 
 It uses MQTT to communicate with Home Assistant. Point was I only ran MQTT broker for that purpose, all other devices were connected via another binding. So it was nice to see that ESPhomeyaml version 1.10.0 (now called ESPHome btw) now has it's own native API for Home Assistant.
@@ -124,3 +125,4 @@ Resources:
 
 - <https://esphomelib.com/index.html>
 - <https://esphomelib.com/esphomeyaml/components/sensor/dallas.html>
+{% endraw %}

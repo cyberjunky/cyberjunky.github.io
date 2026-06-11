@@ -20,6 +20,7 @@ ghost_id: 65cc82d8e7fddf00012feb9c
 ghost_url: https://cyberjunky.nl/examining-avm-fritz/
 ---
 
+{% raw %}
 Some steps too take a closer look to AVM's firmware
 
 ```
@@ -86,3 +87,4 @@ filesystem.image  _filesystem.image-0.extracted  _filesystem.image.extracted  ke
 ```
 
 ‌
+{% endraw %}

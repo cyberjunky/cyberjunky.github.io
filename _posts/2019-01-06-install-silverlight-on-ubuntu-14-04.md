@@ -19,6 +19,7 @@ ghost_id: 65cc82d8e7fddf00012feb73
 ghost_url: https://cyberjunky.nl/install-silverlight-on-ubuntu-14-04/
 ---
 
+{% raw %}
 Ok, sometimes you can't go around a Microsoft product because a crappy  
 site is written in Silverlight and you can't go without it.  
 These steps install a modified version of Wine and configure it so that  
@@ -52,3 +53,4 @@ For current user only:
 
 Please note that only Firefox browser will work, since Chrome version  
 >34 doesn't support the NSAPI anymore which this plugin uses.
+{% endraw %}

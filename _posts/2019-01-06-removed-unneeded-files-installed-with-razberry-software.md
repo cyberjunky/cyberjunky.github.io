@@ -19,6 +19,7 @@ ghost_id: 65cc82d8e7fddf00012feb7a
 ghost_url: https://cyberjunky.nl/removed-unneeded-files-installed-with-razberry-software/
 ---
 
+{% raw %}
 Steps on how to remove Razberry bloated/unneeded files:
 
 Cloud connect stuff:
@@ -37,3 +38,4 @@ Mongoose:
     # rm -rf /etc/mongoose
     # rm /usr/sbin/mongoose
 ```
+{% endraw %}

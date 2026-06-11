@@ -20,6 +20,7 @@ ghost_id: 65cc82d8e7fddf00012feb70
 ghost_url: https://cyberjunky.nl/howto-fix-a-bricked-nexus-7-tablet-2013-wifi-edition/
 ---
 
+{% raw %}
 Make sure you have latest SDK platform tools installed and have  
 downloaded and unpack correct image fot your tablet.
 
@@ -127,3 +128,4 @@ Fixed!
 Resource:
 
 <http://forums.androidcentral.com/google-nexus-7-2012-rooting-roms-hacks/191477-guide-nexus-7-factory-image-restore.html>
+{% endraw %}

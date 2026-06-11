@@ -18,6 +18,7 @@ ghost_id: 65cc82d8e7fddf00012feb76
 ghost_url: https://cyberjunky.nl/ocz-vertex-2-serial-port-diagnostics/
 ---
 
+{% raw %}
 Found my dead OCZ SSD drive again and connected it to the serial port of  
 my Ubuntu desktop.
 
@@ -57,3 +58,4 @@ This is what I get upon startup when i connect to it at 115200 Baud
 ```
 
 Going to see if google has any pointers...
+{% endraw %}

@@ -25,6 +25,7 @@ ghost_id: 65cc82d8e7fddf00012febb8
 ghost_url: https://cyberjunky.nl/hosting-a-ghost-blog-on-google-cloud/
 ---
 
+{% raw %}
 I switched from the paid (although cheap) AWS Lightsail to Google Compute Engine for hosting this blog.
 
 ![](/assets/images/2022/11/Screenshot-from-2022-11-10-15-31-46.png)
@@ -210,3 +211,4 @@ done
 tar -czvf ./backup-server.tar.gz --exclude=".[^/]*" ./backup
 rm -rf $backup_path
 ```
+{% endraw %}

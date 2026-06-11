@@ -22,6 +22,7 @@ ghost_id: 65cc82d8e7fddf00012feb89
 ghost_url: https://cyberjunky.nl/docker-monitor-sensor-for-home-assistant/
 ---
 
+{% raw %}
 Found an interesting custom component sensor called docker\_monitor.py [here](https://gist.github.com/Sanderhuisman/e609a99682854d9f880f8334b7194558).  
 But since I use Hass.io it couldn't open docker's UNIX socket, this post describes how to enable and use the TCP based API instead.
 
@@ -142,3 +143,4 @@ Customization:
 Resources:  
 <https://gathering.tweakers.net/forum/list_message/57718722#57718722>  
 <https://docker-py.readthedocs.io/en/stable/client.html>
+{% endraw %}

@@ -20,6 +20,7 @@ ghost_id: 65cc82d8e7fddf00012feb69
 ghost_url: https://cyberjunky.nl/cleanup-redmine-users/
 ---
 
+{% raw %}
 Startup MySQL tool
 
 ```
@@ -38,3 +39,4 @@ These will show records with state register from 7 days or older.
     DELETE FROM tokens WHERE action='register';
     DELETE FROM users WHERE status=2;
 ```
+{% endraw %}

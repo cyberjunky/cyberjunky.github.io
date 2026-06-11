@@ -14,6 +14,8 @@ ghost_id: 65cc82d8e7fddf00012feb67
 ghost_url: https://cyberjunky.nl/arduino-yun-the-best-hacks-you-will-ever-see/
 ---
 
+{% raw %}
 ![http://www.open-electronics.org/arduino-yun-the-best-hacks-you-will-ever-see/](http://arduino.cc/en/uploads/Main/ArduinoYunFront_2_450px.jpg)
 
 Link: <http://www.open-electronics.org/arduino-yun-the-best-hacks-you-will-ever-see/>
+{% endraw %}

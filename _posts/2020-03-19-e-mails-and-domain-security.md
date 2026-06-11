@@ -46,6 +46,7 @@ ghost_id: 65cc82d8e7fddf00012feb9a
 ghost_url: https://cyberjunky.nl/e-mails-and-domain-security/
 ---
 
+{% raw %}
 About SPF, DMARC and DNSSEC
 
 DMARC:
@@ -87,3 +88,4 @@ Already taken care of by Versio:
 Resources:
 
 <https://kitterman.com/dmarc/assistant.html>
+{% endraw %}

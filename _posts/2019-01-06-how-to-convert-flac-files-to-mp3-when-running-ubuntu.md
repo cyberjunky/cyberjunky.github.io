@@ -14,7 +14,9 @@ ghost_id: 65cc82d8e7fddf00012feb6f
 ghost_url: https://cyberjunky.nl/how-to-convert-flac-files-to-mp3-when-running-ubuntu/
 ---
 
+{% raw %}
 ```
 $ sudo apt-get install flac lame 
 $ for f in *.flac; do flac -cd "$f" | lame -b 320 - "${f%.*}".mp3; done
 ```
+{% endraw %}

@@ -27,6 +27,7 @@ ghost_id: 65cc82d8e7fddf00012feb8a
 ghost_url: https://cyberjunky.nl/push-toon-p1-data-to-dsmr-on-docker/
 ---
 
+{% raw %}
 I wanted to see what DSMR reader can tell from my power and gas usage over time, and also to get an insight in the costs. This until I have build a dashboard with the same functionality with Grafana.
 
 But I have no P1 reader other than TOON's meteradapter which data I already read via http for Home Assistant and PVOutput. I could Home Assistant push data to DSMR, but instead to safe time I created a small Python script which I call every 10 seconds.
@@ -166,3 +167,4 @@ autorestart=false
 ```
 
 Restart container
+{% endraw %}

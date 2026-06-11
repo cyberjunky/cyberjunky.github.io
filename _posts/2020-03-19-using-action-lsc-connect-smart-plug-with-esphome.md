@@ -22,6 +22,7 @@ ghost_id: 65cc82d8e7fddf00012feb92
 ghost_url: https://cyberjunky.nl/using-action-lsc-connect-smart-plug-with-esphome/
 ---
 
+{% raw %}
 In this post I describe the steps needed to prepare a LSC Smart Connect power plug -sold by Action- for use with Home Assistant/ESPHome. I simply gathered instructions I found on the web.
 
 You need to be able to solder thin copper wires on the Smart Plug's circuit board. All steps are at your own risk!
@@ -90,3 +91,4 @@ binary_sensor:
     internal: yes    
     ```
 ```
+{% endraw %}

@@ -45,6 +45,7 @@ ghost_id: 65cc82d8e7fddf00012febb6
 ghost_url: https://cyberjunky.nl/crypto-trading-with-freqtrade/
 ---
 
+{% raw %}
 Some snippets/notes on how to use *freqtrade*.
 
 <https://www.freqtrade.io/en/latest/>  
@@ -138,3 +139,4 @@ $ freqtrade backtesting --ticker-interval 1h -s BbandRsi -c config.json b --expo
 Plot Graphs
 $ python3 ./scripts/plot_dataframe.py -s BbandRsi  -p ZEC/BTC --indicators1 bb_lowerband,bb_middleband,bb_upperband --indicators2 rsi
 ```
+{% endraw %}

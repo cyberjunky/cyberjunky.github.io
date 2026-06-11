@@ -20,6 +20,8 @@ ghost_id: 65cc82d8e7fddf00012feb6e
 ghost_url: https://cyberjunky.nl/gambas-3-did-you-know-1/
 ---
 
+{% raw %}
 If you use TODO: in a comment, it will be listed in the IDE as a task,  
 very handy!  
 ![gambas3tasks](/assets/images/2019/01/gambas3tasks.png)
+{% endraw %}

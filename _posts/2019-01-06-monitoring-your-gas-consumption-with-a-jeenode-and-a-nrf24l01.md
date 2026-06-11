@@ -17,5 +17,7 @@ ghost_id: 65cc82d8e7fddf00012feb75
 ghost_url: https://cyberjunky.nl/monitoring-your-gas-consumption-with-a-jeenode-and-a-nrf24l01/
 ---
 
+{% raw %}
 <http://hackaday.com/2014/03/23/monitoring-your-gas-consumption-with-a-jeenode-and-a-nrf24l01/>![](https://cyberjunky.nl/img/custom_sensor_1.jpg)  
 ![custom_sensor_1](/assets/images/2019/01/custom_sensor_1.jpg)
+{% endraw %}

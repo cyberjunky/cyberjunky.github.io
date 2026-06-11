@@ -38,6 +38,7 @@ ghost_id: 65cc82d8e7fddf00012feb99
 ghost_url: https://cyberjunky.nl/misc-linux-tips-and-tricks/
 ---
 
+{% raw %}
 **R Studio Data Recovery doesn't start with:**  
 */usr/local/R-Studio/bin/R-Studio: error while loading shared libraries: librs\_linux\_r.so: cannot open shared object file: No such file or directory*
 
@@ -104,3 +105,4 @@ SERVER> find . | perl -l -ne '/^([\000-\177]|[\300-\337][\200-\277]|[\340-\357][
 ./mBed/meterbed/MQTTClient_RFID_on_mbed-main.cpp at master � yilun-MQTTClient_RFID_on_mbed � GitHub.url
 ./mBed/meterbed/Andrew Hazelden's Blog � Monitoring A Solar Hot Water System Over the Internet.url
 ```
+{% endraw %}

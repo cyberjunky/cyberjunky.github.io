@@ -59,6 +59,7 @@ ghost_id: 65cc82d8e7fddf00012feba0
 ghost_url: https://cyberjunky.nl/huawei-matebook-14-2020-amd-ryzen-r5-4600h/
 ---
 
+{% raw %}
 I couldn't wait any longer for the bare-bone AMD's to become available again in the Netherlands and wanted a modern, small laptop with more then the standard FHD resolution, 16GB Memory and 512GB SSD and AMD Ryzen below the €1000 range.
 
 Specs:
@@ -128,3 +129,4 @@ Articles:
 <https://www.notebookcheck.net/The-Huawei-MateBook-13-2020-and-MateBook-14-2020-combine-a-Ryzen-5-4600H-or-Ryzen-7-4800H-with-2K-and-3-2-aspect-ratio-displays.488669.0.html>
 
 <https://www.notebookcheck.net/AMD-Ryzen-5-4600H-Laptop-Processor-Benchmarks-and-Specs.449911.0.html>
+{% endraw %}

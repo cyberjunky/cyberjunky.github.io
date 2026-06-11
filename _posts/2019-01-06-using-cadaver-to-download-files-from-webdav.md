@@ -19,6 +19,7 @@ ghost_id: 65cc82d8e7fddf00012feb80
 ghost_url: https://cyberjunky.nl/using-cadaver-to-download-files-from-webdav/
 ---
 
+{% raw %}
 My Ubuntu installation refuses to mount a particular webdave share.  
 Using a share and GUI browser is for Windows users anyway.
 
@@ -58,3 +59,4 @@ mput – Upload multiple files from your local hard drive to the server.
 For local usage just put an l in front of the commands above, so lls,  
 lcd etc...  
 Happy downloading!
+{% endraw %}

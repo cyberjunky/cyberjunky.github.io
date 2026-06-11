@@ -243,8 +243,15 @@ def build_document(item: dict, kind: str, images: ImageDownloader) -> tuple[str,
     fm["ghost_id"] = item.get("id")
     fm["ghost_url"] = item.get("url")
 
-    body = images.rewrite(html_to_markdown(item.get("html")))
-    contents = front_matter(fm) + (body or "")
+    body = images.rewrite(html_to_markdown(item.get("html"))) or ""
+    # Migrated content often contains {{ ... }} and {% ... %} (e.g. Home
+    # Assistant / Jinja2 / Ansible snippets) that are identical to Jekyll's
+    # Liquid syntax. Without this, Jekyll tries to *execute* them and the build
+    # fails ("Unknown tag", "Expected end_of_string"). Wrapping the body in raw
+    # tells Liquid to leave it alone; Markdown still renders normally.
+    if body.strip():
+        body = "{% raw %}\n" + body + "\n{% endraw %}"
+    contents = front_matter(fm) + body
 
     if kind == "page":
         rel = f"_pages/{slug}.md"

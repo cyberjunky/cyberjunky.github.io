@@ -21,6 +21,7 @@ ghost_id: 65cc82d8e7fddf00012febb2
 ghost_url: https://cyberjunky.nl/control-home-assistant-device-with-knx/
 ---
 
+{% raw %}
 Had to look up some posts before I got it working, so this is a note to myself.
 
 First you need to allow the KNX Group Addresses you want to trigger on to hit Home Assistants event bus, in this example 0/0/1.
@@ -100,3 +101,4 @@ If you want to react on more Group Addresses, you can use choose in your automat
 ```
 
 It will switch off the non-KNX light 'hobbykamer\_ledstrip' when it sees a 'All Off' event on the bus, and you can toggle it on and off with another button. (using GA '1/0/13', in this case sent from a Gira RF taster)
+{% endraw %}

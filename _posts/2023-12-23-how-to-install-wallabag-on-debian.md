@@ -36,6 +36,7 @@ ghost_id: 65cc82d8e7fddf00012febba
 ghost_url: https://cyberjunky.nl/how-to-install-wallabag-on-debian/
 ---
 
+{% raw %}
 Was looking for a tool to store my bookmarks and items to read. Did this by sending myself e-mails which was not very clean...
 
 I opted to move to Wallabag, so installed it on a VPS like so.
@@ -130,3 +131,4 @@ ctrl-c
 sudo certbot --nginx -d wallabag.cyberjunky.nl
 sudo systemctl restart nginx
 ```
+{% endraw %}

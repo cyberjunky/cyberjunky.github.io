@@ -32,6 +32,7 @@ ghost_id: 661182822ed8070001a3e4c1
 ghost_url: https://cyberjunky.nl/p/abd052c3-063b-4a02-9707-eaea8c24de46/
 ---
 
+{% raw %}
 [Pwnagotchi - Deep Reinforcement Learning instrumenting bettercap for WiFi pwning.
 
 ![](https://pwnagotchi.ai/favicon.png)Deep Reinforcement Learning instrumenting bettercap for WiFi pwning.
@@ -69,3 +70,4 @@ How configure the serial port on Raspberry Pi 4, 3+, 3, and Pi Zero W
 ![](https://di-marco.net/assets/icons/icon-192x192.png)Alexandre Di MarcoAlexandre Di Marco
 
 ![](https://di-marco.net/assets/img/blog/2020-06-06/2020-06-06-raspberry_pi_3_4_and_0_w_serial_port_usage.jpg)](https://di-marco.net/blog/it/2020-06-06-raspberry_pi_3_4_and_0_w_serial_port_usage/)
+{% endraw %}

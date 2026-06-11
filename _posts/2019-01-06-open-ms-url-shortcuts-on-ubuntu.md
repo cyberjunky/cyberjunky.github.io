@@ -44,6 +44,7 @@ ghost_id: 65cc82d8e7fddf00012feb78
 ghost_url: https://cyberjunky.nl/open-ms-url-shortcuts-on-ubuntu/
 ---
 
+{% raw %}
 We need to create a wrapper script and associate the file type with it.
 
 ```
@@ -80,3 +81,4 @@ Find name of mime-type by quering a example .url file
 $ xdg-mime query filetype ~/Desktop/p/PHP-\ uniqid\ -\ Manual.url application/x-mswinurl
 $ xdg-mime default open-url.desktop application/x-mswinurl
 ```
+{% endraw %}

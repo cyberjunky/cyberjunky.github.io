@@ -18,6 +18,7 @@ ghost_id: 65cc82d8e7fddf00012febb9
 ghost_url: https://cyberjunky.nl/my-home-assistant-setup/
 ---
 
+{% raw %}
 I use Home Assistant for quite some years now, started to run it on a Raspberry Pi, a NUC, later went for Home Assistant Blue, and recently bought a Home Assistant Yellow, specially for the built-in radio's and faster Raspberry CM4 module. <https://www.raspberrypi.com/documentation/computers/compute-module.html>
 
 I could move over my installation vie the backup-restore method, but I want to document things, clean up unused code, and maybe improve older integrations. (by adding unique id's, Config Flows etc)
@@ -178,3 +179,4 @@ Toon Climate
 Toon Boilerstats  
 Toon Smartmeter  
 Garmin Connect
+{% endraw %}

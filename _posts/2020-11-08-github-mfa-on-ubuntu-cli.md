@@ -23,6 +23,7 @@ ghost_id: 65cc82d8e7fddf00012feb9e
 ghost_url: https://cyberjunky.nl/github-mfa-on-ubuntu-cli/
 ---
 
+{% raw %}
 Install and compile the Gnome Keyring development
 
 ```
@@ -30,3 +31,4 @@ $ sudo apt-get install libgnome-keyring-dev
 $ sudo make --directory=/usr/share/doc/git/contrib/credential/gnome-keyring
 $ git config --global credential.helper /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
 ```
+{% endraw %}

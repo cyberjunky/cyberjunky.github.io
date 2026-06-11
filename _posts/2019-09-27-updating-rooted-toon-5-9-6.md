@@ -37,6 +37,7 @@ ghost_id: 65cc82d8e7fddf00012feb91
 ghost_url: https://cyberjunky.nl/updating-rooted-toon-5-9-6/
 ---
 
+{% raw %}
 Excerpt of latest Toon update.
 
 ```
@@ -155,3 +156,4 @@ Tweak SSH parameters to be able to copy files:
 ```
 $ scp -oKexAlgorithms=+diffie-hellman-group1-sha1 x11vnc_0.9.13-r0_qb2.ipk root@192.168.x.y:/root
 ```
+{% endraw %}

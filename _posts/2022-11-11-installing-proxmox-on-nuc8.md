@@ -17,6 +17,7 @@ ghost_id: 65cc82d8e7fddf00012febb5
 ghost_url: https://cyberjunky.nl/installing-proxmox-on-nuc8/
 ---
 
+{% raw %}
 I installed Proxmox on a spare NUC8 to run all kind of things and get Proxmox experience.
 
 ### Hardware
@@ -185,3 +186,4 @@ Install and configure Samba
 
 # service smbd restart
 ```
+{% endraw %}

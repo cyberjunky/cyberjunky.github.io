@@ -29,6 +29,7 @@ ghost_id: 65cc82d8e7fddf00012feba5
 ghost_url: https://cyberjunky.nl/siemens-5wg1-260-1ab01-binary-inputs-knx/
 ---
 
+{% raw %}
 I needed binary inputs which could handle 230 Volt and simply have the option to send On, Off or Toggle to a Group Address using standard light switches with rocker-  and push switches. (for a good user experience)
 
 I came across a batch of old SIEMENS N260 4-fold binary inputs, for 10 Euro each, so I bought them,
@@ -52,3 +53,4 @@ Parameters for rocker switch toggle functionality
 ![](/assets/images/2020/09/n260paramspush.PNG)
 
 Parameters for push button toggle functionality
+{% endraw %}

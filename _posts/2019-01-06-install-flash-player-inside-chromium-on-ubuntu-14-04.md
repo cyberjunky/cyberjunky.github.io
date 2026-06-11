@@ -20,6 +20,7 @@ ghost_id: 65cc82d8e7fddf00012feb71
 ghost_url: https://cyberjunky.nl/install-flash-player-inside-chromium-on-ubuntu-14-04/
 ---
 
+{% raw %}
 Chromium on Ubuntu 14.04 doesn't use Netscape plugin API anymore, it  
 simply not there.  
 The Chrome browser has support for Flash, so the following steps  
@@ -39,3 +40,4 @@ If you want to uninstall it for some reason, use
 ```
    $ sudo update-pepperflashplugin-nonfree --uninstall
 ```
+{% endraw %}

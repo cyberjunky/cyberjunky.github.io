@@ -28,6 +28,7 @@ ghost_id: 65cc82d8e7fddf00012feba3
 ghost_url: https://cyberjunky.nl/invert-window-sensor-state-for-abb-enocean-gateway/
 ---
 
+{% raw %}
 I use a ABB EnOcean EG/A32.2.1 EnOcean to KNX Gateway, a wonderful device, but I ran into an issue where a Eltako FTKE door window sensor (F6-10-00) reported 0 - Close; 1 - Open  
 And an STM 250 window sensor (D5-00-01) reports 1 = Closed; 0 -  Open.
 
@@ -38,3 +39,4 @@ Not wanting to fiddle with Home Assistant code this time, but it turns out that 
 ![](/assets/images/2020/09/EnOcean-Contacts.PNG)![](/assets/images/2020/09/EnOcean-Values.PNG)
 
 The first is with inverted instance enabled, the last the default.
+{% endraw %}

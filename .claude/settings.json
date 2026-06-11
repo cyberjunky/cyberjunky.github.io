@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -m py_compile ghost_to_jekyll.py)"
+      "Bash(python -m py_compile ghost_to_jekyll.py)",
+      "PowerShell(powershell -ExecutionPolicy Bypass -File \"c:\\\\Users\\\\ronkl\\\\Development\\\\website\\\\tools\\\\make-toolkit-zip.ps1\")",
+      "PowerShell(Resolve-DnsName cyberjunky.nl -Type A -Server 8.8.8.8)",
+      "PowerShell(Resolve-DnsName cyberjunky.nl -Type AAAA -Server 8.8.8.8)",
+      "PowerShell(\"----- AAAA -----\")",
+      "Bash(gh --version)",
+      "Bash(gh run *)",
+      "Bash(python tools/fix_liquid_raw.py)",
+      "Bash(git add *)",
+      "Bash(git push *)"
     ]
   }
 }

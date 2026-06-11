@@ -12,4 +12,6 @@ ghost_id: 65cc82d8e7fddf00012feb79
 ghost_url: https://cyberjunky.nl/open-source-humanoid-robot-is-awesom-o/
 ---
 
+{% raw %}
 ![](/assets/images/2019/01/awesome-o.png)
+{% endraw %}

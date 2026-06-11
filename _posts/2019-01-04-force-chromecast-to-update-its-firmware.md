@@ -29,6 +29,7 @@ ghost_id: 65cc82d8e7fddf00012feb66
 ghost_url: https://cyberjunky.nl/force-chromecast-to-update-its-firmware/
 ---
 
+{% raw %}
 I noticed that some of my Google Chromecasts were on an older firmware version.
 
 You can force a reboot and update with this command: (insert own IP address)
@@ -54,3 +55,4 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 < 
 * Connection #0 to host <YOUR IP> left intact
 ```
+{% endraw %}

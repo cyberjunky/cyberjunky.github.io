@@ -19,6 +19,7 @@ ghost_id: 65cc82d8e7fddf00012feb7b
 ghost_url: https://cyberjunky.nl/repair-a-non-booting-grub-installation/
 ---
 
+{% raw %}
 Today I had to fix two issues with my computer not booting through grub  
 bootloader.  
 One of the reasons was a failed installation of Ubuntu due to using an  
@@ -37,3 +38,4 @@ Then follow the steps given.
     $ sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
     $ sudo apt-get install -y boot-repair && boot-repair
 ```
+{% endraw %}

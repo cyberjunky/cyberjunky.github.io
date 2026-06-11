@@ -17,5 +17,7 @@ ghost_id: 65cc82d8e7fddf00012feb7c
 ghost_url: https://cyberjunky.nl/rpi-monitor-pi-store/
 ---
 
+{% raw %}
 <http://store.raspberrypi.com/projects/rpi-monitor>  
 ![screenshot_1395686476-150x150](/assets/images/2019/01/screenshot_1395686476-150x150.png)
+{% endraw %}

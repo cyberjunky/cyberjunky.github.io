@@ -23,6 +23,7 @@ ghost_id: 67d1973e68401d00015cf69c
 ghost_url: https://cyberjunky.nl/p/7234dd07-8296-427e-ba3f-23afc2510b0a/
 ---
 
+{% raw %}
 ### Transforming My Holiday Home with KNX Automation
 
 I'm thrilled to share that I've recently purchased a charming, albeit tiny, holiday home nestled in a serene location. While it's the perfect getaway, I wanted to enhance its functionality and security by integrating KNX automation. This technology promises not only to make my stays more convenient but also to provide peace of mind when I'm away.
@@ -76,3 +77,4 @@ Instructions on how to integrate KNX components with Home Assistant.
 ![](/assets/images/icon/favicon-192x192.png)Home AssistantHome Assistant
 
 ![](/assets/images/thumbnail/default-social.png)](https://www.home-assistant.io/integrations/knx/)
+{% endraw %}

@@ -21,6 +21,7 @@ ghost_id: 65cc82d8e7fddf00012feb97
 ghost_url: https://cyberjunky.nl/geigercounter-with-esphome/
 ---
 
+{% raw %}
 I had this Geiger counter DIY Kit for Arduino laying around for a long time and decided to connect it to my Home Assistant installation using ESPHome.
 
 I'm using a Wemos D1 mini, even though the counter works at 5V and the IO pins accept a max. voltage of 3.2V it works and hasn't damage the input. (disclaimer)
@@ -87,3 +88,4 @@ Radiation Detector DIY Kit ver. 3.00The third edition of our Nuclear Radiation D
 ![](https://static.wixstatic.com/media/e43988_c1b267bf11984739b2471428541fd3fc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg)](https://www.rhelectronics.store/radiation-detector-geiger-counter-diy-kit-second-edition)
 
 <https://wiki.wemos.cc/products:d1:d1_mini>
+{% endraw %}

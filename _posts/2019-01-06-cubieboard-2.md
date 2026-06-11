@@ -15,4 +15,6 @@ ghost_id: 65cc82d8e7fddf00012feb6a
 ghost_url: https://cyberjunky.nl/cubieboard-2/
 ---
 
+{% raw %}
 My Cubieboard2 server is running fine for Months now!![IMG_20131210_1224471](/assets/images/2019/01/IMG_20131210_1224471.jpg)
+{% endraw %}

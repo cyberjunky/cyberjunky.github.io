@@ -19,6 +19,7 @@ ghost_id: 65cc82d8e7fddf00012feb74
 ghost_url: https://cyberjunky.nl/migrate-a-redmine-site-to-another-server/
 ---
 
+{% raw %}
 On current server:
 
 ```
@@ -62,3 +63,4 @@ Reload/migrate redmine data and plugins
 
     # service apache2 restart
 ```
+{% endraw %}

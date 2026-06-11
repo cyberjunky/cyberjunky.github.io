@@ -20,6 +20,8 @@ ghost_id: 65cc82d8e7fddf00012feb85
 ghost_url: https://cyberjunky.nl/home-assistant-custom-components/
 ---
 
+{% raw %}
 You can find my custom components here:
 
 <https://github.com/cyberjunky/home-assistant-custom-components>
+{% endraw %}

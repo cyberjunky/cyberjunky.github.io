@@ -35,6 +35,7 @@ ghost_id: 65cc82d8e7fddf00012febaa
 ghost_url: https://cyberjunky.nl/home-assistant-database-maintenance/
 ---
 
+{% raw %}
 Some commands to investigate and cleanup my Home Assistant database.
 
 I'm using MariaDB in docker, open a docker cli on homeassistant docker image (using Portainer for example)
@@ -253,3 +254,4 @@ cards:
     type: markdown
 type: horizontal-stack
 ```
+{% endraw %}

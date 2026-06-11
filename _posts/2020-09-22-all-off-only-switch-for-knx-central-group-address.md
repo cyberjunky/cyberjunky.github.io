@@ -21,6 +21,7 @@ ghost_id: 65cc82d8e7fddf00012feba2
 ghost_url: https://cyberjunky.nl/all-off-only-switch-for-knx-central-group-address/
 ---
 
+{% raw %}
 I had an issue where i have an All On/Off Central group address in KNX but I didn't want to be able to do a Switch On All for a switch from Home Assistant.
 
 I came up with a template switch like this:
@@ -48,3 +49,4 @@ switch:
          data:
            entity_id: switch.alles_uit_aan
 ```
+{% endraw %}

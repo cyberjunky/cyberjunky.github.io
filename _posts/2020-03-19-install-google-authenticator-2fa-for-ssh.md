@@ -49,6 +49,7 @@ ghost_id: 65cc82d8e7fddf00012feb9b
 ghost_url: https://cyberjunky.nl/install-google-authenticator-2fa-for-ssh/
 ---
 
+{% raw %}
 Ubuntu:
 
 ```
@@ -77,3 +78,4 @@ Set ChallengeResponseAuthentication yes
 
 $ sudo /etc/init.d/ssh restart
 ```
+{% endraw %}

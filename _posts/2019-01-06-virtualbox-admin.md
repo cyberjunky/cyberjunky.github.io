@@ -20,6 +20,7 @@ ghost_id: 65cc82d8e7fddf00012feb81
 ghost_url: https://cyberjunky.nl/virtualbox-admin/
 ---
 
+{% raw %}
 I run several machines on top of Virtual Box on Debian (headless).  
 Here some notes I made...
 
@@ -179,3 +180,4 @@ Attach ISO file to DVD drive
     $ cd /media/cdrom
     $ sh ./VBoxLinuxAdditions.sh
 ```
+{% endraw %}

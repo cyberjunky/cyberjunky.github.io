@@ -35,6 +35,7 @@ ghost_id: 65cc82d8e7fddf00012feb9f
 ghost_url: https://cyberjunky.nl/updating-rooted-toon-5-28-6/
 ---
 
+{% raw %}
 Login to Toon:
 
 $ ssh -c aes128-cbc -oKexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.x.y
@@ -56,3 +57,4 @@ Upgrade a rooted toon using original sources. Contribute to ToonSoftwareCollecti
 ![](https://github.githubassets.com/favicons/favicon.svg)GitHubToonSoftwareCollective
 
 ![](https://avatars3.githubusercontent.com/u/45144018?s=400&v=4)](https://github.com/ToonSoftwareCollective/update-rooted/blob/master/toonversions)
+{% endraw %}

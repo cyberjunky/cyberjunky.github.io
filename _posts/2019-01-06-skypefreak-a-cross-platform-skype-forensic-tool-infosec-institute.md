@@ -17,4 +17,6 @@ ghost_id: 65cc82d8e7fddf00012feb7d
 ghost_url: https://cyberjunky.nl/skypefreak-a-cross-platform-skype-forensic-tool-infosec-institute/
 ---
 
+{% raw %}
 <http://resources.infosecinstitute.com/skypefreak-cross-platform-skype-forensic-tool/>
+{% endraw %}

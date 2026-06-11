@@ -48,6 +48,7 @@ ghost_id: 65cc82d8e7fddf00012feb6d
 ghost_url: https://cyberjunky.nl/fix-ssd-trim-on-ubuntu-14-04-lts/
 ---
 
+{% raw %}
 In Ubuntu 14.04 LTS SSD Trim is enabled by default.  
 That's nice and all, so I thought, nothing to do here but I found out  
 it doesn't work when you use LUKS crypt partitions, it's a bug.
@@ -153,3 +154,4 @@ $ sudo tail -n 6 /etc/cron.weekly/fstrim
 # all SSD drives.
 exec fstrim-all
 ```
+{% endraw %}

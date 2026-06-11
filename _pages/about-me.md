@@ -27,6 +27,7 @@ ghost_id: 65cc82d8e7fddf00012feb83
 ghost_url: https://cyberjunky.nl/about-me/
 ---
 
+{% raw %}
 ![drawing](/assets/images/2019/01/ron-4.jpg)
 
 Hi, my name is Ron.
@@ -83,3 +84,4 @@ RDNZL, aka CyberJunky.
 Please mail me your contact details and a short message via address below and I will try to answer your query as soon as possible.
 
 ron (at) cyberjunky (dot) nl
+{% endraw %}

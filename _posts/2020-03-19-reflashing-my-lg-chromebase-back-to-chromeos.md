@@ -30,6 +30,7 @@ ghost_id: 65cc82d8e7fddf00012feb98
 ghost_url: https://cyberjunky.nl/reflashing-my-lg-chromebase-back-to-chromeos/
 ---
 
+{% raw %}
 With a lot of effort (back then when not much was known) I flashed my LG Chromebase (22CV241) to use Coreboot and installed Ubuntu 14.04 LTS on it.
 
 For a while I wanted to reinstalled ChromeOS since I used it for email and viewing YouTube/Twitch only. But since I didn't saved the original BIOS file I couldn't.
@@ -221,3 +222,4 @@ Get information on the LG Chromebase 22CV241-W. Find pictures, reviews, and tech
 ![](https://www.lg.com/lg5-common/favicons/228x228.png)LG USAHojoMojo
 
 ![](https://www.lg.com/us/images/monitors/chromebase-22cv241-w/gallery/large01.jpg)](https://www.lg.com/us/desktops-all-in-one-computers/lg-Chromebase-22CV241-W-all-in-one-computer)
+{% endraw %}

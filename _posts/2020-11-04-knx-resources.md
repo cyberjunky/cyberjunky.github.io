@@ -83,6 +83,7 @@ ghost_id: 65cc82d8e7fddf00012feba1
 ghost_url: https://cyberjunky.nl/knx-resources/
 ---
 
+{% raw %}
 Forums
 
 [Belgian KNX Forum](https://www.knx-forum.be)  
@@ -108,3 +109,4 @@ Commercial Sites
 Manufacturer Support Sites
 
 [ABB[SIEMENS[GIRA[Weinzierl[MDT[Domoticom[Theben[Arcus-eds](https://www.arcus-eds.de/produkte.html)](https://www.theben.de/en/knx-1873-c/)](https://www.domoticom.nl/p1g2/)](https://www.mdt.de/EN_Downloads.html)](https://www.weinzierl.de/index.php/en/all-knx/knx-devices-en)](https://partner.gira.com/nl_NL/service/download/download.html?id=1044)](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=24186&lc=nl-NL)](https://new.abb.com/low-voltage/products/building-automation/product-range/abb-i-bus-knx)
+{% endraw %}

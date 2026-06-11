@@ -15,4 +15,6 @@ ghost_id: 65cc82d8e7fddf00012feb6b
 ghost_url: https://cyberjunky.nl/dissecting-the-airport-express-embedded-ideation/
 ---
 
+{% raw %}
 Link: <http://embeddedideation.com/2014/03/dissecting-the-airport-express/>
+{% endraw %}

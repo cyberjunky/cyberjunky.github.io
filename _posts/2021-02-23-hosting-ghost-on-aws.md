@@ -25,6 +25,7 @@ ghost_id: 65cc82d8e7fddf00012febb3
 ghost_url: https://cyberjunky.nl/hosting-ghost-on-aws/
 ---
 
+{% raw %}
 I decided to switch to only using Home Assistant OS for running servers, I have an Intel NUC (development) and Home Assistant Blue (production), they run Home Assistant and do some file sharing and DSMR smartmeter energy readings.  
 Also VS Studio, TimeScaleDB (Postgres)
 
@@ -272,3 +273,4 @@ Route53 per hosted zone (for first 25) \* 1 = $0.50
 Route53 for 1.000.000 queries $ 0.50 = $ 0.02
 
 Total per Month: $ 5.54 = **€ 4.56**
+{% endraw %}

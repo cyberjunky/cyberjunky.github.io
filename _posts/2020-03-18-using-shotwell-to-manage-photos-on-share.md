@@ -16,6 +16,8 @@ ghost_id: 65cc82d8e7fddf00012feb96
 ghost_url: https://cyberjunky.nl/using-shotwell-to-manage-photos-on-share/
 ---
 
+{% raw %}
 Shotwell cannot cope with auto-mounted shares made by files/nautilus on Ubuntu.
 
 You get "hardware errors" while importing (in place) You can circumvent this by mounting the share using CLI tools, like described here: <https://cyberjunky.nl/mount-sambas-share-on-ubuntu/>
+{% endraw %}

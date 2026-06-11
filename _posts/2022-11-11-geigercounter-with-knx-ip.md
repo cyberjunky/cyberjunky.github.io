@@ -26,6 +26,7 @@ ghost_id: 65cc82d8e7fddf00012febae
 ghost_url: https://cyberjunky.nl/geigercounter-with-knx-ip/
 ---
 
+{% raw %}
 Having a KNX IP backbone with IP routers working I wanted to see if I can build some DIY sensors using it, and check if this is a stable solution for non-critical use cases.
 
 After building a module using ESPHome, I thought of converting it using KNX IP (ie. broadcast over WiFi to a broadcast address to report sensor values)
@@ -71,3 +72,4 @@ ESP8266 core for Arduino. Contribute to esp8266/Arduino development by creating 
 ![](https://github.githubassets.com/favicons/favicon.svg)GitHubesp8266
 
 ![](https://avatars0.githubusercontent.com/u/8943775?s=400&v=4)](https://github.com/esp8266/Arduino)
+{% endraw %}

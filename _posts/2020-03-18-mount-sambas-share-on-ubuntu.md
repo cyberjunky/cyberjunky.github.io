@@ -16,8 +16,10 @@ ghost_id: 65cc82d8e7fddf00012feb95
 ghost_url: https://cyberjunky.nl/mount-sambas-share-on-ubuntu/
 ---
 
+{% raw %}
 ```
 $ sudo apt install cifs-utils
 $ sudo mkdir /mnt/<mountpoint>
 $ sudo mount -t cifs -o user=<user> //<server>/<share> /mnt/<mountpoint>
 ```
+{% endraw %}

@@ -20,6 +20,7 @@ ghost_id: 65cc82d8e7fddf00012feb8c
 ghost_url: https://cyberjunky.nl/renumber-ip-address-of-esphome-devices/
 ---
 
+{% raw %}
 I had my network IP address range renamed because of an ISP change, and forgot to change the static IP's of my ESPHome nodes before the switch.
 
 These are the steps to re-program them using the same server.
@@ -54,3 +55,4 @@ Remove 'use\_address' field from config and re-program, remove IP address alias 
 ```
 $ sudo ifconfig enp2s0:0 192.168.178.10 down
 ```
+{% endraw %}

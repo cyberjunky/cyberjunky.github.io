@@ -24,6 +24,7 @@ ghost_id: 65cc82d8e7fddf00012febac
 ghost_url: https://cyberjunky.nl/updating-a-gira-2167-00-ip-router/
 ---
 
+{% raw %}
 I bought a second hand IP router to replace my IP interface, I'm trying to setup a IP backbone so I can extend my KNX network to the Shed via power-line modules. A second IP router is underway shortly.  
 The one I have now is an Index 04 version, "2167 00 I04" I originally wanted a I14 so I could experiment with Secure KNX, but I don't need it since the power-line modules encrypt the data as well. And new devices are almost double the price.
 
@@ -56,3 +57,4 @@ Make sure that the device is switched off
 3. Briefly release the programming button, then press and hold it again until the programming LED, the operation indication LED and the KNX LED flash quickly simultaneously
 4. The factory reset has now been carried out
 5. Release the programming button
+{% endraw %}
