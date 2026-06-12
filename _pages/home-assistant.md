@@ -5,7 +5,7 @@ slug: home-assistant
 permalink: /home-assistant/
 ---
 
-{% assign ha_posts = site.posts | where_exp: "post", "post.tags contains 'home-assistant' or post.category == 'home-assistant'" %}
+{% assign ha_posts = site.posts | where: "category", "home-assistant" %}
 
 {% if ha_posts.size > 0 %}
 <ul class="post-grid" style="margin-top:1.5rem">
