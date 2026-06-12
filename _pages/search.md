@@ -22,7 +22,6 @@ permalink: /search/
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"
-        integrity="sha512-4SpMJ6pBm7PYMvHPMOB6PpVB+i4FJPHv6YuPnqPbGhWC8EhQ5lF0c0lCRuI6CJrF9VFJqUk6EaQ2wW2cpQFw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
 (function () {
