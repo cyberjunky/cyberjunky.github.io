@@ -102,7 +102,9 @@ permalink: /search/
       li.innerHTML =
         '<a class="post-card-link" href="' + p.url + '">' +
           '<div class="post-card-img-wrap">' +
-            '<div class="post-card-img post-card-img--placeholder"></div>' +
+            (p.image
+              ? '<img class="post-card-img" src="' + escHtml(p.image) + '" alt="' + escHtml(p.title) + '" loading="lazy" />'
+              : '<div class="post-card-img post-card-img--placeholder"></div>') +
             badge +
           '</div>' +
           '<div class="post-card-body">' +

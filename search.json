@@ -9,6 +9,7 @@ layout: none
     "date":     {{ post.date     | date: "%-d %b %Y" | jsonify }},
     "category": {{ post.category | default: "" | jsonify }},
     "tags":     {{ post.tags     | join: " " | jsonify }},
+    "image":    {{ post.feature_image | default: "" | jsonify }},
     "excerpt":  {{ post.excerpt  | strip_html | normalize_whitespace | truncate: 300 | jsonify }},
     "content":  {{ post.content  | strip_html | normalize_whitespace | truncate: 2000 | jsonify }}
   }{% unless forloop.last %},{% endunless %}
