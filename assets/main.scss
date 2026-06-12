@@ -488,6 +488,68 @@ ul { list-style: none; margin: 0; padding: 0; }
 .page-wrap h1 { font-size: 1.75rem; font-weight: 800; margin-bottom: 1.5rem; }
 
 /* ============================================================
+   Tags Page
+   ============================================================ */
+.tag-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tag-index-item {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .3rem .85rem;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: .85rem;
+  color: var(--text);
+  transition: background .15s, border-color .15s;
+}
+.tag-index-item:hover {
+  background: var(--border);
+  color: var(--text);
+}
+
+.tag-count {
+  font-size: .75rem;
+  color: var(--text-2);
+}
+
+.tags-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.5rem 0 2rem;
+}
+
+.tag-section { margin-bottom: 2.5rem; }
+
+.tag-section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 .75rem;
+  color: var(--text);
+}
+
+.tag-post-list { margin: 0; padding: 0; }
+
+.tag-post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: .4rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: .9rem;
+}
+.tag-post-item a { color: var(--text); }
+.tag-post-item a:hover { color: var(--link-hover); }
+.tag-post-item .meta-date { white-space: nowrap; color: var(--text-2); font-size: .8rem; }
+
+/* ============================================================
    Search Page
    ============================================================ */
 .search-wrap {
