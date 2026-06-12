@@ -14,13 +14,13 @@ baseurl: ""
 # GitHub Pages builds Jekyll automatically with this theme (no CI needed).
 theme: minima
 
-# Curate which pages appear in the top nav (minima otherwise lists ALL pages,
-# which produced duplicates like two "About this site" entries). Order matters.
+# Nav order matches the screenshot design. home-assistant.md is a tag archive.
 header_pages:
-  - _pages/about.md
-  - _pages/github.md
+  - _pages/home-assistant.md
   - _pages/knx.md
   - _pages/solar-power.md
+  - _pages/about.md
+  - _pages/github.md
   - _pages/tags.md
 
 # Show post excerpts on the home page list.
@@ -57,7 +57,7 @@ defaults:
     values:
       layout: page
 
-paginate: 10
+paginate: 9
 paginate_path: "/page:num/"
 
 exclude:

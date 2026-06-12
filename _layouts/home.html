@@ -1,44 +1,60 @@
 ---
 layout: default
 ---
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if post.feature_image -%}
-        <a class="post-thumb" href="{{ post.url | relative_url }}">
-          <img src="{{ post.feature_image | relative_url }}"
-               alt="{{ post.feature_image_alt | default: post.title | escape }}" loading="lazy" />
+<div class="container post-grid-wrap">
+  {% assign posts = paginator.posts | default: site.posts %}
+  <ul class="post-grid">
+    {% for post in posts %}
+      {% assign words = post.content | strip_html | number_of_words %}
+      {% assign read_time = words | divided_by: 200 | plus: 1 %}
+      {% assign badge = post.category | default: post.tags[0] %}
+      <li class="post-card">
+        <a class="post-card-link" href="{{ post.url | relative_url }}">
+          <div class="post-card-img-wrap">
+            {% if post.feature_image %}
+              <img class="post-card-img"
+                   src="{{ post.feature_image | relative_url }}"
+                   alt="{{ post.feature_image_alt | default: post.title | escape }}"
+                   loading="lazy" />
+            {% else %}
+              <div class="post-card-img post-card-img--placeholder"></div>
+            {% endif %}
+            {% if badge %}
+              <span class="post-card-badge">{{ badge | upcase | replace: "-", " " }}</span>
+            {% endif %}
+          </div>
+          <div class="post-card-body">
+            <h2 class="post-card-title">{{ post.title | escape }}</h2>
+            {% if post.excerpt %}
+              <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 130 }}</p>
+            {% endif %}
+            <footer class="post-card-meta">
+              <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.67 0 4.8-2.13 4.8-4.8S14.67 2.4 12 2.4 7.2 4.53 7.2 7.2 9.33 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+              <span class="meta-author">{{ post.author | default: site.author }}</span>
+              <span class="meta-sep">&middot;</span>
+              <span class="meta-date">{{ post.date | date: "%-d %b %Y" }}</span>
+              <span class="meta-sep">&middot;</span>
+              <span class="meta-read">{{ read_time }} min read</span>
+            </footer>
+          </div>
         </a>
-        {%- endif -%}
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
       </li>
-      {%- endfor -%}
-    </ul>
+    {% endfor %}
+  </ul>
 
-    {%- if paginator -%}
-    <div class="pager">
-      {%- if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>{%- endif -%}
-      {%- if paginator.next_page %} <a href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>{%- endif -%}
-    </div>
-    {%- endif -%}
-  {%- endif -%}
+  {% if paginator and paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a class="page-btn" href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
+    {% else %}
+      <span class="page-btn page-btn--off">&larr; Newer</span>
+    {% endif %}
+    <span class="page-info">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a class="page-btn" href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
+    {% else %}
+      <span class="page-btn page-btn--off">Older &rarr;</span>
+    {% endif %}
+  </nav>
+  {% endif %}
 </div>

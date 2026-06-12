@@ -78,6 +78,65 @@ progress under the repo's **Actions** tab.
 - **Project site** (`<you>.github.io/<repo>`): the workflow passes the right
   `--baseurl` at build time, so you don't have to hardcode it.
 
+## Creating and editing posts
+
+### Write a new post
+
+1. Create a file in `_posts/` named `YYYY-MM-DD-your-slug.md`.
+2. Add YAML front matter at the top:
+
+```yaml
+---
+layout: post
+title: "Your Post Title"
+date: 2026-06-12 10:00:00 +0000
+tags:
+  - home-assistant
+  - knx
+category: home-assistant        # shown as the badge on the card
+author: Ron
+excerpt: "One or two sentence summary shown in the post card."
+feature_image: /assets/images/your-image.jpg   # optional, shown at top of post
+---
+
+Your post content here in Markdown.
+```
+
+3. Put images in `assets/images/` and reference as `/assets/images/filename.jpg`.
+4. If your content contains `{{ }}` or `{% %}` (e.g. Home Assistant templates),
+   wrap those sections in `{% raw %}` / `{% endraw %}` so Jekyll doesn't try to
+   process them as Liquid.
+
+### Edit an existing post
+
+Open the file in `_posts/` in any text editor and edit the Markdown body or
+front matter. The filename date sets the publish date on the home page list.
+
+### Preview locally before publishing
+
+```bash
+bundle exec jekyll serve
+# open http://localhost:4000
+```
+
+Edits are reflected on save without restarting (except `_config.yml` changes).
+
+### Publish
+
+```bash
+git add _posts/YYYY-MM-DD-your-slug.md assets/images/...
+git commit -m "Add post: your post title"
+git push
+```
+
+GitHub Actions picks up the push, builds, and deploys in ~60 seconds. Watch
+progress at `https://github.com/cyberjunky/cyberjunky.github.io/actions`.
+
+### Drafts
+
+Save unfinished posts in `_drafts/your-slug.md` (no date in filename). They
+build locally with `bundle exec jekyll serve --drafts` but are never deployed.
+
 ## Notes & limitations
 
 - Edit `title`, `description`, `url`, and `baseurl` in `_config.yml`.

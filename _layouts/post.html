@@ -1,38 +1,45 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="container post-wrap">
+  <article class="post">
+    <header class="post-header">
+      {% assign badge = page.category | default: page.tags[0] %}
+      {% if badge %}
+        <span class="post-badge">{{ badge | upcase | replace: "-", " " }}</span>
+      {% endif %}
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+      <div class="post-meta">
+        <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.67 0 4.8-2.13 4.8-4.8S14.67 2.4 12 2.4 7.2 4.53 7.2 7.2 9.33 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+        <span>{{ page.author | default: site.author }}</span>
+        <span class="meta-sep">&middot;</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %b %Y" }}</time>
+        {% assign words = page.content | strip_html | number_of_words %}
+        {% assign read_time = words | divided_by: 200 | plus: 1 %}
+        <span class="meta-sep">&middot;</span>
+        <span>{{ read_time }} min read</span>
+      </div>
+    </header>
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author %} • <span class="p-author h-card" itemprop="author">{{ page.author }}</span>{%- endif -%}
-    </p>
-  </header>
+    {% if page.feature_image %}
+    <figure class="post-feature-img">
+      <img src="{{ page.feature_image | relative_url }}"
+           alt="{{ page.feature_image_alt | default: page.title | escape }}" />
+    </figure>
+    {% endif %}
 
-  {%- if page.feature_image -%}
-  <figure class="post-feature-image" style="margin:1.5rem 0;">
-    <img src="{{ page.feature_image | relative_url }}"
-         alt="{{ page.feature_image_alt | default: page.title | escape }}"
-         style="width:100%;height:auto;border-radius:6px;" itemprop="image" />
-  </figure>
-  {%- endif -%}
+    <div class="post-content">
+      {{ content }}
+    </div>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-  {%- if page.tags and page.tags.size > 0 -%}
-  <footer class="post-tags">
-    <p class="post-meta">Tags:
-      {%- for tag in page.tags %} <span class="post-tag">#{{ tag }}</span>{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}
-    </p>
-  </footer>
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+    {% if page.tags and page.tags.size > 0 %}
+    <footer class="post-footer">
+      <div class="post-tags">
+        {% for tag in page.tags %}
+          <span class="tag-pill">#{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </footer>
+    {% endif %}
+  </article>
+</div>
