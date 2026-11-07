@@ -6,15 +6,12 @@ author: Ron
 excerpt: 'I switched from the paid (although cheap) AWS Lightsail to Google Compute
   Engine for hosting this blog.
 
-
   NOTE: I bought the support for one month to get support on disabling DNSSEC
 
   I hope to run the Google Cloud VM Instance for free (using the monthly credits)
 
-
   The difference between this instance and the old one which ran at AWS is also a
   newer Debian distribution 11, and Ghost 5 instead of Ghost 3.
-
 
   Compute Engine: Virtual Machines (VMs) | Google CloudCompute Engine delivers configurable
   virtu'
@@ -31,13 +28,8 @@ I hope to run the Google Cloud VM Instance for free (using the monthly credits)
 
 The difference between this instance and the old one which ran at AWS is also a newer Debian distribution 11, and Ghost 5 instead of Ghost 3.
 
-[Compute Engine: Virtual Machines (VMs) | Google Cloud
-
-Compute Engine delivers configurable virtual machines running in Google’s data centers with access to high-performance
-
-![](https://www.gstatic.com/devrel-devsite/prod/v8b5224dd5a12318d5f6ab78c52530208ebc55112b691b517d54e8b153c58ecd1/cloud/images/favicons/onecloud/super_cloud.png)Google Cloud
-
-![](https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png)](https://cloud.google.com/compute)
+> **[Compute Engine: Virtual Machines (VMs) | Google Cloud](https://cloud.google.com/compute)**  
+> Compute Engine delivers configurable virtual machines running in Google’s data centers with access to high-performance
 
 Google has free micro instances:
 
@@ -125,7 +117,6 @@ yoursite.com {
 www.yoursite.nl {
     redir https://yoursite.com{uri}
 }
-
 
 vi docker-compose.yaml
 

@@ -75,13 +75,8 @@ Above the code for the ESPHome node, after compile and upload, auto discover it 
 
 Resources:
 
-[Geiger Counter Radiation Detector DIY Kit Arduino Compatible ver. 3.00 | RH Electronics
-
-Radiation Detector DIY Kit ver. 3.00The third edition of our Nuclear Radiation DIY Detector Kit. Arduino compatible kit. Easy assembly for beginners. Support many popular 400V and 500V Geiger Tubes. The kit has several improvements in compare to previously sold second editions. The package comes wit…
-
-![](https://static.wixstatic.com/media/e43988_d2c34975cd2048adb17f0b189d801c60~mv2.jpg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/e43988_d2c34975cd2048adb17f0b189d801c60~mv2.jpg)RH ElectronicsRHElectronics
-
-![](https://static.wixstatic.com/media/e43988_c1b267bf11984739b2471428541fd3fc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg)](https://www.rhelectronics.store/radiation-detector-geiger-counter-diy-kit-second-edition)
+> **[Geiger Counter Radiation Detector DIY Kit Arduino Compatible ver. 3.00 | RH Electronics](https://www.rhelectronics.store/radiation-detector-geiger-counter-diy-kit-second-edition)**  
+> Radiation Detector DIY Kit ver. 3.00The third edition of our Nuclear Radiation DIY Detector Kit. Arduino compatible kit. Easy assembly for beginners. Support many popular 400V and 500V Geiger Tubes. The kit has several improvements in compare to previously sold second editions. The package comes wit…
 
 <https://wiki.wemos.cc/products:d1:d1_mini>
 {% endraw %}

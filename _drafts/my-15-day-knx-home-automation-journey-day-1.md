@@ -5,16 +5,13 @@ date: 2025-03-12 14:16:30 +0000
 author: Ron
 excerpt: 'Transforming My Holiday Home with KNX Automation
 
-
   I''m thrilled to share that I''ve recently purchased a charming, albeit tiny, holiday
   home nestled in a serene location. While it''s the perfect getaway, I wanted to
   enhance its functionality and security by integrating KNX automation. This technology
   promises not only to make my stays more convenient but also to provide peace of
   mind when I''m away.
 
-
   Securing My Holiday Home
-
 
   One of my primary concerns was ensuring that my holiday home is secure at '
 ---
@@ -66,11 +63,7 @@ For extra automation, dashboards and remote control/monitoring Home-Assistant is
 
 Useful resources:
 
-[KNX
+> **[KNX](https://www.home-assistant.io/integrations/knx/)**  
+> Instructions on how to integrate KNX components with Home Assistant.
 
-Instructions on how to integrate KNX components with Home Assistant.
-
-![](/assets/images/icon/favicon-192x192.png)Home AssistantHome Assistant
-
-![](/assets/images/thumbnail/default-social.png)](https://www.home-assistant.io/integrations/knx/)
 {% endraw %}

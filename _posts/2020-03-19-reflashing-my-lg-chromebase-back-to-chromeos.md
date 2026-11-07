@@ -10,17 +10,13 @@ author: Ron
 excerpt: 'With a lot of effort (back then when not much was known) I flashed my LG
   Chromebase (22CV241) to use Coreboot and installed Ubuntu 14.04 LTS on it.
 
-
   For a while I wanted to reinstalled ChromeOS since I used it for email and viewing
   YouTube/Twitch only. But since I didn''t saved the original BIOS file I couldn''t.
-
 
   Until I came across mrchromebox''s script which appeared to download the BIOS from
   the web, and low and behold it worked.
 
-
   These are the steps.
-
 
   Since I already ran Ubuntu on it, I could '
 feature_image: /assets/images/2020/03/chrome_icon.png
@@ -123,7 +119,6 @@ I found 2 USB drives.  We need one with at least 2215MB capacity.
 
 2 - Use /dev/sdc 1039MB Kingston DataTraveler II+
 
-
 Tell me what to do (or just press Enter to scan again): 1
 
 Is this the device you want to put the recovery image on?
@@ -131,7 +126,6 @@ Is this the device you want to put the recovery image on?
   /dev/sdb 7747MB Kingston DataTraveler 102
 
 You must enter 'YES' (all uppercase) to continue: YES
-
 
 I'm really going to erase this device. This will permanently ERASE
 whatever you may have on that drive. You won't be able to undo it.
@@ -142,16 +136,12 @@ If you're sure that's correct, enter 'DoIt' now (case is important):
 
 If you're sure that's correct, enter 'DoIt' now (case is important): DoIt
 
-
 Installing the recovery image
-
 
 unmounting...
 copying... (this may take several minutes)
 
-
 Installing the recovery image
-
 
 unmounting...
 copying... (this may take several minutes)
@@ -159,9 +149,7 @@ copying... (this may take several minutes)
 554+0 records out
 2323644416 bytes (2,3 GB) copied, 982,197 s, 2,4 MB/s
 
-
 Done. Remove the USB drive and insert it in your Chrome notebook.
-
 
 Shall I remove the temporary files now? [y/n]
 ```
@@ -201,21 +189,13 @@ Some internal pictures of the unit
 
 Resources:
 
-[MrChromebox.tech
+> **[MrChromebox.tech](https://mrchromebox.tech/)**  
+> MrChromebox.tech : Custom coreboot firmware and firmware utilities for your Chromebook/Chromebox
 
-MrChromebox.tech : Custom coreboot firmware and firmware utilities for your Chromebook/Chromebox
+> **[Recover your Chromebook - Chromebook Help](https://support.google.com/chromebook/answer/1080595?hl=en)**  
+> When your Chromebook’s operating system (OS) isn’t working properly, you can recover it. Recovery is removing and reinstalling the OS.Note: If you’re using your Chromebook at work or school, a
 
-![](https://www.paypalobjects.com/en_US/i/scr/pixel.gif)](https://mrchromebox.tech/)[Recover your Chromebook - Chromebook Help
+> **[LG Chromebase 22CV241-W : Chromebase 22″ Class (21.5″ Diagonal) | LG USA](https://www.lg.com/us/desktops-all-in-one-computers/lg-Chromebase-22CV241-W-all-in-one-computer)**  
+> Get information on the LG Chromebase 22CV241-W. Find pictures, reviews, and tech specs for the LG Chromebase 22CV241-W Chromebase 22″ Class (21.5″ Diagonal)
 
-When your Chromebook’s operating system (OS) isn’t working properly, you can recover it. Recovery is removing and reinstalling the OS.Note: If you’re using your Chromebook at work or school, a
-
-Chromebook Help
-
-![](https://lh3.googleusercontent.com/-20NuyB0WC36P5OvH-HnVwgMQlIRx47n0At3ZLRZuU2UIuXpsDZVhrsFJMW5DQkQVQU=w18-h18)](https://support.google.com/chromebook/answer/1080595?hl=en)[LG Chromebase 22CV241-W : Chromebase 22″ Class (21.5″ Diagonal) | LG USA
-
-Get information on the LG Chromebase 22CV241-W. Find pictures, reviews, and tech specs for the LG Chromebase 22CV241-W Chromebase 22″ Class (21.5″ Diagonal)
-
-![](https://www.lg.com/lg5-common/favicons/228x228.png)LG USAHojoMojo
-
-![](https://www.lg.com/us/images/monitors/chromebase-22cv241-w/gallery/large01.jpg)](https://www.lg.com/us/desktops-all-in-one-computers/lg-Chromebase-22CV241-W-all-in-one-computer)
 {% endraw %}
