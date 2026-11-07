@@ -1,8 +1,6 @@
 ---
 layout: post
 title: SIEMENS 5WG1 260-1AB01 Binary Inputs
-slug: siemens-5wg1-260-1ab01-binary-inputs-knx
-status: published
 date: 2020-09-22 17:56:55 +0000
 tags:
 - knx
@@ -25,8 +23,6 @@ excerpt: 'I needed binary inputs which could handle 230 Volt and simply have the
 
   Problem '
 feature_image: /assets/images/2020/09/s-l16004.jpg
-ghost_id: 65cc82d8e7fddf00012feba5
-ghost_url: https://cyberjunky.nl/siemens-5wg1-260-1ab01-binary-inputs-knx/
 ---
 
 {% raw %}

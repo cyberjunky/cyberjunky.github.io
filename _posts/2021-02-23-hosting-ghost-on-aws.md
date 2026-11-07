@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Hosting a Ghost blog on AWS
-slug: hosting-ghost-on-aws
-status: published
 date: 2021-02-23 16:49:13 +0000
 tags:
 - aws
@@ -21,8 +19,6 @@ excerpt: 'I decided to switch to only using Home Assistant OS for running server
   on my home Linux server, I could port Ghost over to Home Assistant add-on but I
   wanted to experiment with AWS cloud as well.. If this can be done c'
 feature_image: /assets/images/2021/02/awslogo-1.png
-ghost_id: 65cc82d8e7fddf00012febb3
-ghost_url: https://cyberjunky.nl/hosting-ghost-on-aws/
 ---
 
 {% raw %}

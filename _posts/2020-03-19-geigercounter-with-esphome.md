@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Geigercounter with ESPHome
-slug: geigercounter-with-esphome
-status: published
 date: 2020-03-19 15:12:34 +0000
 tags:
 - esphome
@@ -17,8 +15,6 @@ excerpt: "I had this Geiger counter DIY Kit for Arduino laying around for a long
   \n\n5V\n5V\n\n\nD2 (GPIO4)\nINT\n\n\n\n\n\nesphome:\n  name: <YOURPLUGNAME>\n  platform:\
   \ ESP8266\n  board: esp01_1m\n\nwifi:\n  ssid: \"<WI"
 feature_image: /assets/images/2020/03/radiation-detector-arduino-kit.jpg
-ghost_id: 65cc82d8e7fddf00012feb97
-ghost_url: https://cyberjunky.nl/geigercounter-with-esphome/
 ---
 
 {% raw %}

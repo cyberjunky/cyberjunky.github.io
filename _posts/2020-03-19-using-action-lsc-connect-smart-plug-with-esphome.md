@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Using LSC Smart Connect's Power Plug with ESPHome
-slug: using-action-lsc-connect-smart-plug-with-esphome
-status: published
 date: 2020-03-19 07:29:57 +0000
 tags:
 - esphome
@@ -18,8 +16,6 @@ excerpt: "In this post I describe the steps needed to prepare a LSC Smart Connec
   \ plastic clips on the opposite side. You now see the small ESP board standing upright,\
   \ this is the TYWE3L mo"
 feature_image: /assets/images/2019/09/smartplug.jpeg
-ghost_id: 65cc82d8e7fddf00012feb92
-ghost_url: https://cyberjunky.nl/using-action-lsc-connect-smart-plug-with-esphome/
 ---
 
 {% raw %}

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Push TOON P1 data to DSMR Reader
-slug: push-toon-p1-data-to-dsmr-on-docker
-status: published
 date: 2019-01-22 15:34:57 +0000
 tags:
 - solar
@@ -23,8 +21,6 @@ excerpt: 'I wanted to see what DSMR reader can tell from my power and gas usage 
 
   Install dsmr-docker via docker-compose.yml by'
 feature_image: /assets/images/2019/01/landisgyr.png
-ghost_id: 65cc82d8e7fddf00012feb8a
-ghost_url: https://cyberjunky.nl/push-toon-p1-data-to-dsmr-on-docker/
 ---
 
 {% raw %}

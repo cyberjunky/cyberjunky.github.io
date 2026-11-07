@@ -1,10 +1,8 @@
 ---
 layout: default
 title: KNX
-slug: knx
 permalink: /knx/
 feature_image: /assets/images/2020/03/index.png
-ghost_id: 65cc82d8e7fddf00012feb9d
 ---
 <div class="container post-grid-wrap">
   <h1 style="margin-bottom:1.5rem">KNX</h1>

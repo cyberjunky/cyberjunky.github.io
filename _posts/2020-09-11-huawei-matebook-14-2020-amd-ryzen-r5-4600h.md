@@ -1,8 +1,6 @@
 ---
 layout: post
 title: HUAWEI MateBook 14 2020 AMD Ryzen R5 4600H 16GB/512GB NVMe
-slug: huawei-matebook-14-2020-amd-ryzen-r5-4600h
-status: published
 date: 2020-09-11 12:36:04 +0000
 tags:
 - HUAWEI, AMD, Ryzen, R5
@@ -55,8 +53,6 @@ excerpt: 'I couldn''t wait any longer for the bare-bone AMD''s to become availab
 
   Came with Chinese Windows 10 Home, but I'
 feature_image: /assets/images/2020/09/gray.png
-ghost_id: 65cc82d8e7fddf00012feba0
-ghost_url: https://cyberjunky.nl/huawei-matebook-14-2020-amd-ryzen-r5-4600h/
 ---
 
 {% raw %}

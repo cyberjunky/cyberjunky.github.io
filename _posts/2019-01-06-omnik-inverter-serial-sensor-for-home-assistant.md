@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Omnik Inverter serial sensor for Home Assistant
-slug: omnik-inverter-serial-sensor-for-home-assistant
-status: published
 date: 2019-01-06 19:13:00 +0000
 tags:
 - wemo
@@ -22,8 +20,6 @@ excerpt: 'For a long time I wanted to disconnect my Omnik Inverter from my WiFi 
   just to get it connected. And I also queried the Omnik for it''s data using Omnik-Stats-Logger
   ('
 feature_image: /assets/images/2019/01/photo.jpg
-ghost_id: 65cc82d8e7fddf00012feb86
-ghost_url: https://cyberjunky.nl/omnik-inverter-serial-sensor-for-home-assistant/
 ---
 
 {% raw %}

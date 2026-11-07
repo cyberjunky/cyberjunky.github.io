@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Home Assistant Database Maintenance
-slug: home-assistant-database-maintenance
-status: published
 date: 2020-10-18 17:40:48 +0000
 tags:
 - home-assistant
@@ -31,8 +29,6 @@ excerpt: 'Some commands to investigate and cleanup my Home Assistant database.
 
   Copyright (c) 2000, '
 feature_image: /assets/images/2020/10/dbsize-1.png
-ghost_id: 65cc82d8e7fddf00012febaa
-ghost_url: https://cyberjunky.nl/home-assistant-database-maintenance/
 ---
 
 {% raw %}

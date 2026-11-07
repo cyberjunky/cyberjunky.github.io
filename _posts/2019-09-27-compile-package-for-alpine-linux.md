@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Compile package for Alpine Linux
-slug: compile-package-for-alpine-linux
-status: published
 date: 2019-09-27 11:26:14 +0000
 author: Ron
 excerpt: 'Install Alpine Linux inside Virtual Box using this image, assign to DVD
@@ -41,8 +39,6 @@ excerpt: 'Install Alpine Linux inside Virtual Box using this image, assign to DV
 
   Shutdown live cd using poweroff comma'
 feature_image: /assets/images/2019/04/alogo.png
-ghost_id: 65cc82d8e7fddf00012feb90
-ghost_url: https://cyberjunky.nl/compile-package-for-alpine-linux/
 ---
 
 {% raw %}

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Repair a non booting GRUB installation
-slug: repair-a-non-booting-grub-installation
-status: published
 date: 2019-01-06 11:19:23 +0000
 tags:
 - linux
@@ -15,8 +13,6 @@ excerpt: "Today I had to fix two issues with my computer not booting through gru
   \ problems.\n\n\nI used the 2nd option, simply boot into a live Ubuntu installation\
   \ and\n\nrun these two commands.\n\nThen follow the steps given.\n\n\nhttps://help.ubuntu.com/community/Boot-Repair\n\
   \n\n    $ su"
-ghost_id: 65cc82d8e7fddf00012feb7b
-ghost_url: https://cyberjunky.nl/repair-a-non-booting-grub-installation/
 ---
 
 {% raw %}

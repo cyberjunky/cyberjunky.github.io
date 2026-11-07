@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Virtualbox Admin
-slug: virtualbox-admin
-status: published
 date: 2019-01-06 11:23:06 +0000
 tags:
 - virtualbox
@@ -16,8 +14,6 @@ excerpt: "I run several machines on top of Virtual Box on Debian (headless).\n\n
   \ contrib\n\n    $ wget -q http://download.virtualbox.org/virtualbox/debian/oracle\\\
   _vbox.asc -O- | sudo apt-key add -  \n    $ sudo apt-get update  \n    $ sudo apt-get\
   \ install virtualbox-4.3\n\n\n\nUpdates\n\n\nBef"
-ghost_id: 65cc82d8e7fddf00012feb81
-ghost_url: https://cyberjunky.nl/virtualbox-admin/
 ---
 
 {% raw %}

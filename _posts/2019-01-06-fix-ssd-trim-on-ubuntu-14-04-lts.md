@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Fix SSD Trim on Ubuntu 14.04 LTS
-slug: fix-ssd-trim-on-ubuntu-14-04-lts
-status: published
 date: 2019-01-06 11:10:43 +0000
 tags:
 - ubuntu
@@ -44,8 +42,6 @@ excerpt: 'In Ubuntu 14.04 LTS SSD Trim is enabled by default.
 
 
   Check what d'
-ghost_id: 65cc82d8e7fddf00012feb6d
-ghost_url: https://cyberjunky.nl/fix-ssd-trim-on-ubuntu-14-04-lts/
 ---
 
 {% raw %}

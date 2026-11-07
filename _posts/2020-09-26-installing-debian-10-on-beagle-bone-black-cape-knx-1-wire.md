@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Configuring Beagle Bone Black Cape KNX 1-Wire on Debian 10
-slug: installing-debian-10-on-beagle-bone-black-cape-knx-1-wire
-status: published
 date: 2020-09-26 15:29:16 +0000
 tags:
 - knx
@@ -36,8 +34,6 @@ excerpt: 'Setup image and install tools for building your a KNX IP interface for
 
   To start, make sure the BeagleBone Black is po'
 feature_image: /assets/images/2020/09/gehause_unterseite2_bemasst.jpg
-ghost_id: 65cc82d8e7fddf00012feba7
-ghost_url: https://cyberjunky.nl/installing-debian-10-on-beagle-bone-black-cape-knx-1-wire/
 ---
 
 {% raw %}

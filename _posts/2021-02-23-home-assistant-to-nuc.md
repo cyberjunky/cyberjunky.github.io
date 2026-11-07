@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Home Assistant OS on a Intel NUC
-slug: home-assistant-to-nuc
-status: published
 date: 2021-02-23 15:06:45 +0000
 tags:
 - home-assistant
@@ -33,8 +31,6 @@ excerpt: 'My D.I.Y. i3 board running Ubuntu 18 and Docker with Supervised HA for
 
   Mount'
 feature_image: /assets/images/2021/02/nuc.png
-ghost_id: 65cc82d8e7fddf00012febaf
-ghost_url: https://cyberjunky.nl/home-assistant-to-nuc/
 ---
 
 {% raw %}

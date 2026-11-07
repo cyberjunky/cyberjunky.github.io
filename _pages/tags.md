@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Tags
-slug: tags
 permalink: /tags/
-ghost_id: 65cc82d8e7fddf00012feba9
 ---
 <div class="container page-wrap">
   <h1>Tags</h1>

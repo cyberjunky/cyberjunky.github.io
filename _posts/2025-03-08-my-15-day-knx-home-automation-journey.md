@@ -1,8 +1,6 @@
 ---
 layout: post
 title: My 15-Day KNX Home Automation Journey
-slug: my-15-day-knx-home-automation-journey
-status: published
 date: 2025-03-08 14:07:47 +0000
 tags:
 - knx
@@ -22,8 +20,6 @@ excerpt: 'Welcome to My 15-Day KNX Home Automation Journey with Home Assistant!
 
   Each day, I''ll be sharing my experiences, tips, and insights as I configure a'
 feature_image: /assets/images/2025/03/DALL-E-2025-03-06-18.34.11---A-modern-smart-home-concept-with-a-futuristic-touch--featuring-a-KNX-automation-system-and-Home-Assistant-Blue-device.-The-image-showcases-a-sleek-hom.webp
-ghost_id: 67cc4e9468401d00015cf689
-ghost_url: https://cyberjunky.nl/my-15-day-knx-home-automation-journey/
 ---
 
 {% raw %}

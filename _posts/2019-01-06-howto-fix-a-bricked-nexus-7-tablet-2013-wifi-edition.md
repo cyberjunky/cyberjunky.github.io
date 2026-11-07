@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Howto fix a bricked Nexus 7 tablet (2013 WiFi edition)
-slug: howto-fix-a-bricked-nexus-7-tablet-2013-wifi-edition
-status: published
 date: 2019-01-06 11:12:50 +0000
 tags:
 - fixes
@@ -16,8 +14,6 @@ excerpt: "Make sure you have latest SDK platform tools installed and have\n\ndow
   \ boot\n    erasing 'boot'...\n    OKAY [  0.034s]\n    finished. total time: 0.034s\n\
   \n    ron@ron-ubuntu:~/Android/Sdk/platform-tools$ ./fastboot erase cache\n    ********\
   \ Did you mean to fastb"
-ghost_id: 65cc82d8e7fddf00012feb70
-ghost_url: https://cyberjunky.nl/howto-fix-a-bricked-nexus-7-tablet-2013-wifi-edition/
 ---
 
 {% raw %}

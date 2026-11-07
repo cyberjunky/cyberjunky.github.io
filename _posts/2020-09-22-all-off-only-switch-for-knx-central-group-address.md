@@ -1,8 +1,6 @@
 ---
 layout: post
 title: '''All On/Off'' only switch Off for KNX Central Group Address'
-slug: all-off-only-switch-for-knx-central-group-address
-status: published
 date: 2020-09-22 16:45:59 +0000
 tags:
 - knx
@@ -17,8 +15,6 @@ excerpt: "I had an issue where i have an All On/Off Central group address in KNX
   \ \"{{ is_state('switch.alles_uit_aan', 'off') }}\"\n       turn_on:\n         service:\
   \ switch.turn_off\n         d"
 feature_image: /assets/images/2020/09/7297401.jpg
-ghost_id: 65cc82d8e7fddf00012feba2
-ghost_url: https://cyberjunky.nl/all-off-only-switch-for-knx-central-group-address/
 ---
 
 {% raw %}

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: RPi-Monitor - Pi Store
-slug: rpi-monitor-pi-store
-status: published
 date: 2019-01-06 11:20:03 +0000
 tags:
 - rasberry-pi
@@ -13,8 +11,6 @@ excerpt: 'http://store.raspberrypi.com/projects/rpi-monitor
 
 
   '
-ghost_id: 65cc82d8e7fddf00012feb7c
-ghost_url: https://cyberjunky.nl/rpi-monitor-pi-store/
 ---
 
 {% raw %}

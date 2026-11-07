@@ -1,8 +1,6 @@
 ---
 layout: post
 title: OCZ Vertex 2 serial port diagnostics
-slug: ocz-vertex-2-serial-port-diagnostics
-status: published
 date: 2019-01-06 11:16:14 +0000
 tags:
 - ssd
@@ -14,8 +12,6 @@ excerpt: "Found my dead OCZ SSD drive again and connected it to the serial port 
   \   FW_SRC 0 SHA PASS!\n    *** EEPROM 207 Jan  3 2011 18:36:43 BuildServer:FW_Common_Critical_Fixes:P1_EEPROM_2_0_7_drop-290232\
   \ ***\n    Hynix Timing EPch\n    *** Patch 1.4.1 Apr  8 2011 00:55:09 BuildServer:P1_3_6_1_MP4_Patch1_20110408:P1_3_6_1_MP4_Patch1_20110408-305073\
   \ ***\n  "
-ghost_id: 65cc82d8e7fddf00012feb76
-ghost_url: https://cyberjunky.nl/ocz-vertex-2-serial-port-diagnostics/
 ---
 
 {% raw %}

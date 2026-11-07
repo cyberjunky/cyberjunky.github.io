@@ -1,8 +1,6 @@
 ---
 layout: post
 title: My Home Assistant Setup - Part 1
-slug: my-home-assistant-setup
-status: published
 date: 2024-02-14 09:11:56 +0000
 author: Ron
 excerpt: 'I use Home Assistant for quite some years now, started to run it on a Raspberry
@@ -14,8 +12,6 @@ excerpt: 'I use Home Assistant for quite some years now, started to run it on a 
   things, clean up unused code, and maybe improve older integrations. (by adding unique
   id''s, Config '
 feature_image: /assets/images/2024/02/200921211689844881.2508.jpg
-ghost_id: 65cc82d8e7fddf00012febb9
-ghost_url: https://cyberjunky.nl/my-home-assistant-setup/
 ---
 
 {% raw %}

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: JUNG KNX multi station
-slug: jung-multistation
-status: published
 date: 2021-01-08 16:00:33 +0000
 tags:
 - knx
@@ -18,8 +16,6 @@ excerpt: "Art. No. 23066REGHE\n\nI bought a few of these modules some time ago, 
   \ than 100 group objects to assign!\n\n\nProduct info\n\nPossible use cases:\n\n\
   \ * Switching of electrical loads with f"
 feature_image: /assets/images/2021/01/JUNG_23066REGHE.png
-ghost_id: 65cc82d8e7fddf00012febb1
-ghost_url: https://cyberjunky.nl/jung-multistation/
 ---
 
 {% raw %}

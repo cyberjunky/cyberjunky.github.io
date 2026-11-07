@@ -1,8 +1,6 @@
 ---
 layout: post
 title: ESPHome revised AKA native API
-slug: esphome-revised-aka-native-api
-status: published
 date: 2019-01-10 19:29:05 +0000
 tags:
 - arduino
@@ -21,8 +19,6 @@ excerpt: 'ESPhomeyaml was already a great add-on for Home Assistant, you could p
   nice to see that ESPhomeyaml version 1.10.0 (now called ESPHome btw) now has it''s
   own nati'
 feature_image: /assets/images/2019/01/esphomelogo.png
-ghost_id: 65cc82d8e7fddf00012feb87
-ghost_url: https://cyberjunky.nl/esphome-revised-aka-native-api/
 ---
 
 {% raw %}

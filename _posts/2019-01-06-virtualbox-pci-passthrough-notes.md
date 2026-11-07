@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Virtualbox PCI Passthrough Notes
-slug: virtualbox-pci-passthrough-notes
-status: published
 date: 2019-01-06 11:23:45 +0000
 tags:
 - linux
@@ -44,8 +42,6 @@ excerpt: 'Some notes regarding exposing a PCI card inside a Virtualbox VM
 
   user@node-s'
 feature_image: /assets/images/2020/08/3a5772951965.jpg
-ghost_id: 65cc82d8e7fddf00012feb82
-ghost_url: https://cyberjunky.nl/virtualbox-pci-passthrough-notes/
 ---
 
 {% raw %}

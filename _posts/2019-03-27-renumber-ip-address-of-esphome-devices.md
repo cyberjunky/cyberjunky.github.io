@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Renumbering static IP address of ESPHome node
-slug: renumber-ip-address-of-esphome-devices
-status: published
 date: 2019-03-27 15:27:14 +0000
 tags:
 - home-assistant-addon esphome
@@ -16,8 +14,6 @@ excerpt: "I had my network IP address range renamed because of an ISP change, an
   \ !secret wifi_password\n  use_address: 192.168.178.112\n\n  manual_ip:\n    static_ip:\
   \ 192.168.2.112\n    gateway: 192.1"
 feature_image: /assets/images/2019/03/esphome.png
-ghost_id: 65cc82d8e7fddf00012feb8c
-ghost_url: https://cyberjunky.nl/renumber-ip-address-of-esphome-devices/
 ---
 
 {% raw %}

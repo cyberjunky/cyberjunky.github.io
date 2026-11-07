@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Force Chromecast to update it's firmware
-slug: force-chromecast-to-update-its-firmware
-status: published
 date: 2019-01-04 10:54:01 +0000
 author: Ron
 excerpt: 'I noticed that some of my Google Chromecasts were on an older firmware version.
@@ -25,8 +23,6 @@ excerpt: 'I noticed that some of my Google Chromecasts were on an older firmware
   > POST /setup/reboot HTTP/1.1
 
   > Host: <YOUR IP>:80'
-ghost_id: 65cc82d8e7fddf00012feb66
-ghost_url: https://cyberjunky.nl/force-chromecast-to-update-its-firmware/
 ---
 
 {% raw %}

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Enable Google Authenticator 2FA for SSH
-slug: install-google-authenticator-2fa-for-ssh
-status: published
 date: 2020-03-19 21:00:58 +0000
 tags:
 - linux
@@ -45,8 +43,6 @@ excerpt: 'Ubuntu:
 
   $ sudo /etc/'
 feature_image: /assets/images/2020/03/google-authenticator.png
-ghost_id: 65cc82d8e7fddf00012feb9b
-ghost_url: https://cyberjunky.nl/install-google-authenticator-2fa-for-ssh/
 ---
 
 {% raw %}

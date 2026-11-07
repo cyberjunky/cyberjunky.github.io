@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Pwnagotchi
-slug: pwnagotchi
-status: draft
 date: 2024-04-06 17:12:34 +0000
 author: Ron
 excerpt: 'Pwnagotchi - Deep Reinforcement Learning instrumenting bettercap for WiFi
@@ -28,8 +26,6 @@ excerpt: 'Pwnagotchi - Deep Reinforcement Learning instrumenting bettercap for W
   RTC DS3231 incl. Batterij - voor Raspberry PiEen DS3231 hoge precisie realtime klok
   voor een Raspberry Pi. Communicatie gaat via I2C. Specificaties: Ingangsspanning:
   2.3 - 5.5 VDC Tijd precisie: 5 ppm (0.4'
-ghost_id: 661182822ed8070001a3e4c1
-ghost_url: https://cyberjunky.nl/p/abd052c3-063b-4a02-9707-eaea8c24de46/
 ---
 
 {% raw %}

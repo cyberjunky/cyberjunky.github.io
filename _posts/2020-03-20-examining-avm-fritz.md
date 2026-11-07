@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Examining AVM FRITZ!Box firmware
-slug: examining-avm-fritz
-status: published
 date: 2020-03-20 06:56:02 +0000
 tags:
 - hacks
@@ -16,8 +14,6 @@ excerpt: "Some steps too take a closer look to AVM's firmware\n\n$ mkdir ~/Firmw
   --------------------------------------------------------------------------------\n\
   0             0x0             POSIX tar archive (GNU)\n\n\n$ tar xvf FRITZ.Box"
 feature_image: /assets/images/2020/03/7950.jpg
-ghost_id: 65cc82d8e7fddf00012feb9c
-ghost_url: https://cyberjunky.nl/examining-avm-fritz/
 ---
 
 {% raw %}

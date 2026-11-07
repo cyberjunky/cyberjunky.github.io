@@ -1,8 +1,6 @@
 ---
 layout: post
 title: ZeroTier One SDN from the cloud
-slug: zerotier-software-defined-networking-from-the-cloud
-status: published
 date: 2019-04-06 15:44:58 +0000
 tags:
 - sdn
@@ -23,8 +21,6 @@ excerpt: 'I never heard of ZeroTier One until Frenck created a Hass.io Add-on fo
   device, and install the ZeroTier One client on the computer from which you want
   to connect to the home ne'
 feature_image: /assets/images/2019/04/zt.png
-ghost_id: 65cc82d8e7fddf00012feb8f
-ghost_url: https://cyberjunky.nl/zerotier-software-defined-networking-from-the-cloud/
 ---
 
 {% raw %}

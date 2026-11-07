@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Online KNX Resources
-slug: knx-resources
-status: published
 date: 2020-11-04 11:01:27 +0000
 tags:
 - knx
@@ -79,8 +77,6 @@ excerpt: 'Forums
 
   '
 feature_image: /assets/images/2020/11/KNX_logo.svg.png
-ghost_id: 65cc82d8e7fddf00012feba1
-ghost_url: https://cyberjunky.nl/knx-resources/
 ---
 
 {% raw %}

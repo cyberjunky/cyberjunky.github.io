@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Updating an GIRA 2167 00 IP Router
-slug: updating-a-gira-2167-00-ip-router
-status: published
 date: 2020-10-27 15:36:12 +0000
 tags:
 - knx
@@ -20,8 +18,6 @@ excerpt: 'I bought a second hand IP router to replace my IP interface, I''m tryi
 
   The one I received contained firmware version 2.0.134, '
 feature_image: /assets/images/2020/10/Neuheiten_2016_KNX_IP-Router_Keyvisual_900x480px_10968_1457623125.jpg
-ghost_id: 65cc82d8e7fddf00012febac
-ghost_url: https://cyberjunky.nl/updating-a-gira-2167-00-ip-router/
 ---
 
 {% raw %}

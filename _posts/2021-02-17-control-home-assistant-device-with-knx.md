@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Control Home Assistant devices with KNX group addresses
-slug: control-home-assistant-device-with-knx
-status: published
 date: 2021-02-17 16:23:23 +0000
 tags:
 - knx
@@ -17,8 +15,6 @@ excerpt: "Had to look up some posts before I got it working, so this is a note t
   ]\n\nAfter a restart you can check if the GA is visible on the bus when triggered,\
   \ open HA's developer menu, events, and ty"
 feature_image: /assets/images/2021/02/knx.png
-ghost_id: 65cc82d8e7fddf00012febb2
-ghost_url: https://cyberjunky.nl/control-home-assistant-device-with-knx/
 ---
 
 {% raw %}

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Hosting a Ghost blog on Google Cloud
-slug: hosting-a-ghost-blog-on-google-cloud
-status: published
 date: 2022-11-11 15:25:50 +0000
 author: Ron
 excerpt: 'I switched from the paid (although cheap) AWS Lightsail to Google Compute
@@ -21,8 +19,6 @@ excerpt: 'I switched from the paid (although cheap) AWS Lightsail to Google Comp
   Compute Engine: Virtual Machines (VMs) | Google CloudCompute Engine delivers configurable
   virtu'
 feature_image: /assets/images/2022/11/gcp.png
-ghost_id: 65cc82d8e7fddf00012febb8
-ghost_url: https://cyberjunky.nl/hosting-a-ghost-blog-on-google-cloud/
 ---
 
 {% raw %}

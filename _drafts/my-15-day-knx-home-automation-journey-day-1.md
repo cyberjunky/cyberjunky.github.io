@@ -1,8 +1,6 @@
 ---
 layout: post
 title: My 15-Day KNX Home Automation Journey - Day 1
-slug: my-15-day-knx-home-automation-journey-day-1
-status: draft
 date: 2025-03-12 14:16:30 +0000
 author: Ron
 excerpt: 'Transforming My Holiday Home with KNX Automation
@@ -19,8 +17,6 @@ excerpt: 'Transforming My Holiday Home with KNX Automation
 
 
   One of my primary concerns was ensuring that my holiday home is secure at '
-ghost_id: 67d1973e68401d00015cf69c
-ghost_url: https://cyberjunky.nl/p/7234dd07-8296-427e-ba3f-23afc2510b0a/
 ---
 
 {% raw %}

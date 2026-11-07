@@ -1,8 +1,6 @@
 ---
 layout: post
 title: T962 reflow oven enhancements
-slug: t962-reflow-oven-enhancements
-status: published
 date: 2019-01-06 11:21:28 +0000
 tags:
 - reflow
@@ -58,8 +56,6 @@ excerpt: '
 
   https://github.com/UnifiedEngineering/'
 feature_image: /assets/images/2020/08/51RTooTANfL._AC_SX679_.jpg
-ghost_id: 65cc82d8e7fddf00012feb7e
-ghost_url: https://cyberjunky.nl/t962-reflow-oven-enhancements/
 ---
 
 {% raw %}

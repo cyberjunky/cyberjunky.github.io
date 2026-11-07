@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Open MS .URL shortcuts on Ubuntu
-slug: open-ms-url-shortcuts-on-ubuntu
-status: published
 date: 2019-01-06 11:17:16 +0000
 tags:
 - ubuntu
@@ -40,8 +38,6 @@ excerpt: 'We need to create a wrapper script and associate the file type with it
 
 
   $ cp /usr/share/applications/chromium-browser.desktop ~/.local/share/appli'
-ghost_id: 65cc82d8e7fddf00012feb78
-ghost_url: https://cyberjunky.nl/open-ms-url-shortcuts-on-ubuntu/
 ---
 
 {% raw %}

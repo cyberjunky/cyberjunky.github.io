@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Migrate a Redmine site to another server
-slug: migrate-a-redmine-site-to-another-server
-status: published
 date: 2019-01-06 11:14:47 +0000
 tags:
 - redmine
@@ -15,8 +13,6 @@ excerpt: "On current server:\n\n\n    # service apache2 stop\n    # cd /opt/redm
   \ *\n\n\n\nDelete test database (is needed) and reload new database\n\n\n    # mysqladmin\
   \ -u root -p drop redmine\n    # mysqladmin -u root -p create redmine\n    # mysql\
   \ -u root -p redmine \n\n\n\nReload/m"
-ghost_id: 65cc82d8e7fddf00012feb74
-ghost_url: https://cyberjunky.nl/migrate-a-redmine-site-to-another-server/
 ---
 
 {% raw %}

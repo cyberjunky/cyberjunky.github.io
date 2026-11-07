@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Installing Debian 9 image for Beagle Bone Black Cape KNX 1-Wire
-slug: building-image-for-beagle-bone-black
-status: published
 date: 2019-04-01 19:22:25 +0000
 tags:
 - linux
@@ -17,8 +15,6 @@ excerpt: "Installation commands and log for building your own image with KNX and
   \n# Look for bbgw's IP address in DHCP and login using SSH\nssh 192.168.178.122\
   \ \n\nUser: debian\nPassword: t"
 feature_image: /assets/images/2019/04/IBBCape-KOE-Produktbild.jpg
-ghost_id: 65cc82d8e7fddf00012feb8d
-ghost_url: https://cyberjunky.nl/building-image-for-beagle-bone-black/
 ---
 
 {% raw %}

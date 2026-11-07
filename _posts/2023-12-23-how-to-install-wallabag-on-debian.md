@@ -1,8 +1,6 @@
 ---
 layout: post
 title: How to install Wallabag on Debian
-slug: how-to-install-wallabag-on-debian
-status: published
 date: 2023-12-23 17:23:07 +0000
 author: Ron
 excerpt: 'Was looking for a tool to store my bookmarks and items to read. Did this
@@ -32,8 +30,6 @@ excerpt: 'Was looking for a tool to store my bookmarks and items to read. Did th
   sudo apt install php-fpm php-mysql php-bcmath php-xml php-zip php-curl php-mbstring
   php-gd ph'
 feature_image: /assets/images/2024/02/unnamed.png
-ghost_id: 65cc82d8e7fddf00012febba
-ghost_url: https://cyberjunky.nl/how-to-install-wallabag-on-debian/
 ---
 
 {% raw %}

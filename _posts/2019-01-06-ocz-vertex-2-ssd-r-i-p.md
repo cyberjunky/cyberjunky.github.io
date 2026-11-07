@@ -1,8 +1,6 @@
 ---
 layout: post
 title: OCZ Vertex 2 SSD R.I.P.
-slug: ocz-vertex-2-ssd-r-i-p
-status: published
 date: 2019-01-06 11:16:43 +0000
 tags:
 - ssd
@@ -15,8 +13,6 @@ excerpt: "I'm the proud owner of a dead OCZ Vertex 2 SSD.\n\nIt was working for 
   \ it the BIOS tries to detect it for a more than\n\na minute.\n\nAnd fails with\
   \ the message:\n\n\n    Auto-Detecting AHCI Port 1..\n    ...\n    Auto-Detecting\
   \ AHCI Port 4..\n\n\n\ndmesg in Ubuntu is tel"
-ghost_id: 65cc82d8e7fddf00012feb77
-ghost_url: https://cyberjunky.nl/ocz-vertex-2-ssd-r-i-p/
 ---
 
 {% raw %}

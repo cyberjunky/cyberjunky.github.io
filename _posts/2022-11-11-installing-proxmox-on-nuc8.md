@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Installing Proxmox on a Intel NUC
-slug: installing-proxmox-on-nuc8
-status: published
 date: 2022-11-11 14:21:26 +0000
 author: Ron
 excerpt: "I installed Proxmox on a spare NUC8 to run all kind of things and get Proxmox\
@@ -13,8 +11,6 @@ excerpt: "I installed Proxmox on a spare NUC8 to run all kind of things and get 
   \ features of the processor.\n\n\nPrepare Installation Medium\n\nDownload latest\
   \ Proxmox image from this si"
 feature_image: /assets/images/2021/02/Proxmox-Backup-Server-1-0-Dashboard.png
-ghost_id: 65cc82d8e7fddf00012febb5
-ghost_url: https://cyberjunky.nl/installing-proxmox-on-nuc8/
 ---
 
 {% raw %}

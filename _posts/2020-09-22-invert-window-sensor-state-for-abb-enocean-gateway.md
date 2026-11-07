@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Invert Window Sensor state for ABB EnOcean Gateway
-slug: invert-window-sensor-state-for-abb-enocean-gateway
-status: published
 date: 2020-09-22 17:09:10 +0000
 tags:
 - knx
@@ -24,8 +22,6 @@ excerpt: 'I use a ABB EnOcean EG/A32.2.1 EnOcean to KNX Gateway, a wonderful dev
   after pairing the EnOcean contact you get two status_contacts, one enabled and one
   disabled'
 feature_image: /assets/images/2020/09/gateway.jpg
-ghost_id: 65cc82d8e7fddf00012feba3
-ghost_url: https://cyberjunky.nl/invert-window-sensor-state-for-abb-enocean-gateway/
 ---
 
 {% raw %}

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Create a Self-Signed Certificate on MikroTik
-slug: create-self-sign-cert-for-mikrotik
-status: published
 date: 2019-03-27 11:05:09 +0000
 tags:
 - mikrotik
@@ -29,8 +27,6 @@ excerpt: '/certificate add name=SSL common-name=SSL key-size=2048
 
   openssl x509 -req -days 9999 -in certificate-request.pem -signkey cer'
 feature_image: /assets/images/2019/03/SSL-Certificate-Image-1024x458.jpeg
-ghost_id: 65cc82d8e7fddf00012feb8b
-ghost_url: https://cyberjunky.nl/create-self-sign-cert-for-mikrotik/
 ---
 
 {% raw %}

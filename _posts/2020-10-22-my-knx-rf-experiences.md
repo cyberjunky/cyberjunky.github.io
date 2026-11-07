@@ -1,8 +1,6 @@
 ---
 layout: post
 title: My KNX RF experiences so far
-slug: my-knx-rf-experiences
-status: published
 date: 2020-10-22 13:56:03 +0000
 tags:
 - knx
@@ -28,8 +26,6 @@ excerpt: 'I have some sections in my house where it''s impossible to get the gre
 
   For retro-fit/residential, works standalone or with other media, repeater func'
 feature_image: /assets/images/2020/10/RF-LK00102.png
-ghost_id: 65cc82d8e7fddf00012febab
-ghost_url: https://cyberjunky.nl/my-knx-rf-experiences/
 ---
 
 {% raw %}

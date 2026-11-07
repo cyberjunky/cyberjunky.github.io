@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Updating rooted Toon 5.9.6
-slug: updating-rooted-toon-5-9-6
-status: published
 date: 2019-09-27 11:25:48 +0000
 tags:
 - toon
@@ -33,8 +31,6 @@ excerpt: 'Excerpt of latest Toon update.
 
   100%[======================================================'
 feature_image: /assets/images/2020/08/TOON-Logo_reg_mark_ORANGE-rgb.png
-ghost_id: 65cc82d8e7fddf00012feb91
-ghost_url: https://cyberjunky.nl/updating-rooted-toon-5-9-6/
 ---
 
 {% raw %}

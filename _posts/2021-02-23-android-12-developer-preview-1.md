@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Android 12 Developer Preview 1
-slug: android-12-developer-preview-1
-status: published
 date: 2021-02-23 18:37:57 +0000
 tags:
 - android
@@ -22,8 +20,6 @@ excerpt: 'A developer preview of the new Android 12 is available, I installed it
   DevelopersFirst preview of Android 12Posted by Dave Burke, VP of Engineering Every
   day, Android apps help billions of people work, play, communicate'
 feature_image: /assets/images/2021/02/Android-12.png
-ghost_id: 65cc82d8e7fddf00012febb4
-ghost_url: https://cyberjunky.nl/android-12-developer-preview-1/
 ---
 
 {% raw %}

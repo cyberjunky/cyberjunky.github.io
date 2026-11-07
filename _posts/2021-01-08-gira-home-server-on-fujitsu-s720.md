@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Gira Home Server 4 on Fujitsu S720
-slug: gira-home-server-on-fujitsu-s720
-status: published
 date: 2021-01-08 10:11:15 +0000
 tags:
 - knx
@@ -27,8 +25,6 @@ excerpt: 'IMPORTANT NOTE: This setup is pure for testing/HSL development/knowled
   It contains a D3313-B13 GS 1 motherboard with a 2GB memory module and a 2GB mSATA
   3SE from innodisk for disk storage, no fan, so as quiet as possible. '
 feature_image: /assets/images/2021/01/imageedit_1_2780732523.gif
-ghost_id: 65cc82d8e7fddf00012febb0
-ghost_url: https://cyberjunky.nl/gira-home-server-on-fujitsu-s720/
 ---
 
 {% raw %}

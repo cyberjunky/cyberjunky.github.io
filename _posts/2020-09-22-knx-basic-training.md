@@ -1,8 +1,6 @@
 ---
 layout: post
 title: KNX Basic Training
-slug: knx-basic-training
-status: published
 date: 2020-09-22 17:26:48 +0000
 tags:
 - knx
@@ -19,8 +17,6 @@ excerpt: 'A month ago I came across an online E-learning Basic Course KNX from G
   You can obtain the KNX certificate and be enrolled as a partner in the KNX Association
   KNX, after tak'
 feature_image: /assets/images/2020/09/images-1.png
-ghost_id: 65cc82d8e7fddf00012feba4
-ghost_url: https://cyberjunky.nl/knx-basic-training/
 ---
 
 {% raw %}

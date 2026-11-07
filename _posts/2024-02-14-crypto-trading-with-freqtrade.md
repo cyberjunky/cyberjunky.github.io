@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Crypto trading with freqtrade
-slug: crypto-trading-with-freqtrade
-status: published
 date: 2024-02-14 09:15:48 +0000
 author: Ron
 excerpt: 'Some snippets/notes on how to use freqtrade.
@@ -41,8 +39,6 @@ excerpt: 'Some snippets/notes on how to use freqtrade.
 
   Debian/Ubuntu detected. Setup'
 feature_image: /assets/images/2024/02/d6659780-a0e1-11eb-8a38-933cd666cdeb.png
-ghost_id: 65cc82d8e7fddf00012febb6
-ghost_url: https://cyberjunky.nl/crypto-trading-with-freqtrade/
 ---
 
 {% raw %}

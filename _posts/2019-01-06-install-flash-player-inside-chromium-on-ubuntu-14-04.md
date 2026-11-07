@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Install Flash player inside Chromium on Ubuntu 14.04
-slug: install-flash-player-inside-chromium-on-ubuntu-14-04
-status: published
 date: 2019-01-06 11:13:19 +0000
 tags:
 - ubuntu
@@ -16,8 +14,6 @@ excerpt: "Chromium on Ubuntu 14.04 doesn't use Netscape plugin API anymore, it\n
   \ all running chromium-browser processes.\n\nWe need to install the Pepper Flash\
   \ player installer.\n\n\n   $ sudo apt-get install pepperflashplugin-nonfree\n \
   \  $ sudo update-pepperflashplugin-nonfree --ins"
-ghost_id: 65cc82d8e7fddf00012feb71
-ghost_url: https://cyberjunky.nl/install-flash-player-inside-chromium-on-ubuntu-14-04/
 ---
 
 {% raw %}

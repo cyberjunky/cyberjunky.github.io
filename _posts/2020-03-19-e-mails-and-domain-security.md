@@ -1,8 +1,6 @@
 ---
 layout: post
 title: email and domain security
-slug: e-mails-and-domain-security
-status: published
 date: 2020-03-19 20:56:53 +0000
 tags:
 - security
@@ -42,8 +40,6 @@ excerpt: 'About SPF, DMARC and DNSSEC
 
   v=spf1 include:_spf'
 feature_image: /assets/images/2020/03/SPF-DKIM-DMARC.png
-ghost_id: 65cc82d8e7fddf00012feb9a
-ghost_url: https://cyberjunky.nl/e-mails-and-domain-security/
 ---
 
 {% raw %}

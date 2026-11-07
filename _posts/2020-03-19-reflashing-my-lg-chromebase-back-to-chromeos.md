@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Reflashing my LG Chromebase back to ChromeOS
-slug: reflashing-my-lg-chromebase-back-to-chromeos
-status: published
 date: 2020-03-19 13:49:03 +0000
 tags:
 - ubuntu
@@ -26,8 +24,6 @@ excerpt: 'With a lot of effort (back then when not much was known) I flashed my 
 
   Since I already ran Ubuntu on it, I could '
 feature_image: /assets/images/2020/03/chrome_icon.png
-ghost_id: 65cc82d8e7fddf00012feb98
-ghost_url: https://cyberjunky.nl/reflashing-my-lg-chromebase-back-to-chromeos/
 ---
 
 {% raw %}

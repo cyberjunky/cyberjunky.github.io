@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Using cadaver to download files from webDAV
-slug: using-cadaver-to-download-files-from-webdav
-status: published
 date: 2019-01-06 11:22:25 +0000
 tags:
 - ubuntu
@@ -15,8 +13,6 @@ excerpt: "My Ubuntu installation refuses to mount a particular webdave share.\n\
   Now you can use the following commands to interact with WebDav and your\n\nlocal\
   \ machine:\n\n\nls – Show a list of files available in the current directory.\n\n\
   cd – Go to the specified directory.\n\nget – Download the spe"
-ghost_id: 65cc82d8e7fddf00012feb80
-ghost_url: https://cyberjunky.nl/using-cadaver-to-download-files-from-webdav/
 ---
 
 {% raw %}

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Install Silverlight on Ubuntu 14.04
-slug: install-silverlight-on-ubuntu-14-04
-status: published
 date: 2019-01-06 11:14:14 +0000
 tags:
 - ubuntu
@@ -15,8 +13,6 @@ excerpt: "Ok, sometimes you can't go around a Microsoft product because a crappy
   \ worked oke for me on Ubuntu 14.04\n\n\n  $ sudo apt-get install python-software-properties\n\
   \  $ sudo add-apt-repository ppa:pipelight/stable\n  $ sudo apt-get update\n  $\
   \ sudo apt-get install p"
-ghost_id: 65cc82d8e7fddf00012feb73
-ghost_url: https://cyberjunky.nl/install-silverlight-on-ubuntu-14-04/
 ---
 
 {% raw %}

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Installing ARCH Linux
-slug: installing-arch-linux
-status: published
 date: 2019-01-06 11:13:45 +0000
 tags:
 - linux
@@ -36,8 +34,6 @@ excerpt: 'In my quest to find a modern Linux distribution which could run both
 
 
   Make sure you write the ISO to USB stick with a '
-ghost_id: 65cc82d8e7fddf00012feb72
-ghost_url: https://cyberjunky.nl/installing-arch-linux/
 ---
 
 {% raw %}

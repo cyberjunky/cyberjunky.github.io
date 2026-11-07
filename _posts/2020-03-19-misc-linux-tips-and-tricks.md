@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Misc Linux tips and tricks
-slug: misc-linux-tips-and-tricks
-status: published
 date: 2020-03-19 20:32:20 +0000
 tags:
 - linux
@@ -34,8 +32,6 @@ excerpt: 'R Studio Data Recovery doesn''t start with:
 
   $ sudo qemu-nbd -c'
 feature_image: /assets/images/2020/03/linuxtux.png
-ghost_id: 65cc82d8e7fddf00012feb99
-ghost_url: https://cyberjunky.nl/misc-linux-tips-and-tricks/
 ---
 
 {% raw %}

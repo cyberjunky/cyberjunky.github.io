@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Move TTN Kickstarter LORA Gateway to V3 network
-slug: move-ttn-gateway-to-v3
-status: published
 date: 2021-06-25 14:27:44 +0000
 tags:
 - thethingsnetwork
@@ -17,8 +15,6 @@ excerpt: "Finally had some time to move my TTN gateway from V2 to V2 network. He
   \ if you live in Europe.\n    b. Give the gateway a name. (Gateway ID)\n    c. Choose\
   \ the frequency plan 'Europe 863-870"
 feature_image: /assets/images/2021/06/Screenshot-from-2021-06-25-14-40-26.png
-ghost_id: 65cc82d8e7fddf00012febb7
-ghost_url: https://cyberjunky.nl/move-ttn-gateway-to-v3/
 ---
 
 {% raw %}

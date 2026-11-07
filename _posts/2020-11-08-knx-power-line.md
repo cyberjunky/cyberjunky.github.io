@@ -1,8 +1,6 @@
 ---
 layout: post
 title: KNX with a power-line IP backbone
-slug: knx-power-line
-status: published
 date: 2020-11-08 15:30:18 +0000
 tags:
 - knx
@@ -25,8 +23,6 @@ excerpt: 'Like I wrote here I wanted to see if I could connect my Shed with KNX 
 
   I knew I needed to replace my IP gateway with two IP routers, so '
 feature_image: /assets/images/2020/11/title.png
-ghost_id: 65cc82d8e7fddf00012febad
-ghost_url: https://cyberjunky.nl/knx-power-line/
 ---
 
 {% raw %}

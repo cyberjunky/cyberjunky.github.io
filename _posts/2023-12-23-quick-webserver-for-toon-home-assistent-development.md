@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Quick webserver for Toon Home Assistant development
-slug: quick-webserver-for-toon-home-assistent-development
-status: published
 date: 2023-12-23 17:42:30 +0000
 author: Ron
 excerpt: "import http.server\nimport socketserver\nfrom http import HTTPStatus\n\n\
@@ -13,8 +11,6 @@ excerpt: "import http.server\nimport socketserver\nfrom http import HTTPStatus\n
   \ = \"getThermostatInfo.json\"\n        \n        if self.path:\n            try:\n\
   \                f = open"
 feature_image: /assets/images/2024/02/maxresdefault.jpg
-ghost_id: 65cc82d8e7fddf00012febbb
-ghost_url: https://cyberjunky.nl/quick-webserver-for-toon-home-assistent-development/
 ---
 
 {% raw %}

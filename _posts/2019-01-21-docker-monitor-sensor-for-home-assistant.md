@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Docker Monitor sensor for Home Assistant
-slug: docker-monitor-sensor-for-home-assistant
-status: published
 date: 2019-01-21 20:54:28 +0000
 tags:
 - home-assistant
@@ -18,8 +16,6 @@ excerpt: "Found an interesting custom component sensor called docker_monitor.py 
   \ docker_monitor\n    host: tcp://192.168.179.10:2375\n    containers:\n      -\
   \ homeassistant\n      - hassio_sup"
 feature_image: /assets/images/2019/01/docker_version-1.png
-ghost_id: 65cc82d8e7fddf00012feb89
-ghost_url: https://cyberjunky.nl/docker-monitor-sensor-for-home-assistant/
 ---
 
 {% raw %}

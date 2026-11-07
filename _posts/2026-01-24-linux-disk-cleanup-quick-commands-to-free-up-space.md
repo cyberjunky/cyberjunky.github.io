@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 'Linux Disk Cleanup: Quick Commands to Free Up Space'
-slug: linux-disk-cleanup-quick-commands-to-free-up-space
-status: published
 date: 2026-01-24 20:39:08 +0000
 tags:
 - linux
@@ -18,8 +16,6 @@ excerpt: "Running low on disk space? It happens to the best of us. Whether it's 
   \ cache and log files\n * Pruning Docker resources\n * Removing Python virtual environments\n\
   \ * Package manager cache"
 feature_image: /assets/images/2026/01/linux-disk-cleanup-feature.png
-ghost_id: 69752dec79baac0001dcd1c3
-ghost_url: https://cyberjunky.nl/linux-disk-cleanup-quick-commands-to-free-up-space/
 ---
 
 {% raw %}

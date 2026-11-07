@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Geigercounter with KNX IP
-slug: geigercounter-with-knx-ip
-status: published
 date: 2022-11-11 14:21:48 +0000
 author: Ron
 excerpt: 'Having a KNX IP backbone with IP routers working I wanted to see if I can
@@ -22,8 +20,6 @@ excerpt: 'Having a KNX IP backbone with IP routers working I wanted to see if I 
 
   On Linux do not install via sudo apt install Arduino, it''s'
 feature_image: /assets/images/2022/11/geigercounter.jpeg
-ghost_id: 65cc82d8e7fddf00012febae
-ghost_url: https://cyberjunky.nl/geigercounter-with-knx-ip/
 ---
 
 {% raw %}
