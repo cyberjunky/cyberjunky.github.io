@@ -1,89 +1,46 @@
-# Ghost → Jekyll (GitHub Pages) migration
+[![Deploy][deploy-shield]][deploy]
+[![GitHub Activity][commits-shield]][commits]
+[![Last Commit][last-commit-shield]][commits]
+![Project Maintenance][maintenance-shield]
 
-Converts a Ghost blog — posts, pages, tags, authors, and all images — into a
-static [Jekyll](https://jekyllrb.com/) site that GitHub Pages builds and serves
-automatically (no custom CI required).
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge&logo=paypal)](https://www.paypal.me/cyberjunkynl/)
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-red.svg?style=for-the-badge&logo=github)](https://github.com/sponsors/cyberjunky)
 
-## What you get
+# CyberJunky's Blog
+
+Source of [cyberjunky.nl](https://cyberjunky.nl), a personal tech blog about home automation, Home Assistant, KNX, solar power, electronics and whatever else lands on the workbench.
+
+## About
+
+The site is a static [Jekyll](https://jekyllrb.com/) site hosted on GitHub Pages. No server, no database, no subscription. Posts are plain Markdown files with YAML front matter, and a GitHub Actions workflow builds and deploys the site on every push to `main`.
+
+Features:
+
+- Custom layouts with light/dark mode, post cards with feature images and category badges
+- Client-side search over all posts (`/search/`)
+- Tag archive (`/tags/`) and topic pages for Home Assistant, KNX and Solar Power
+- RSS feed, sitemap and SEO tags via Jekyll plugins
+
+The blog was migrated from Ghost with [ghost-to-jekyll](https://github.com/cyberjunky/ghost-to-jekyll), a small Python toolkit that lives in its own repo.
+
+## Site Structure
 
 ```
-_posts/YYYY-MM-DD-<slug>.md   published posts (Markdown + YAML front matter)
-_drafts/<slug>.md             draft posts
-_pages/<slug>.md              static pages
-assets/images/...             every image, downloaded and re-linked locally
-_data/authors.yml             author metadata
-_data/tags.yml                tag metadata
-_config.yml, Gemfile, index.html, .gitignore   Jekyll scaffold
+_posts/YYYY-MM-DD-<slug>.md   published posts (URL becomes /<slug>/)
+_drafts/<slug>.md             unpublished drafts
+_pages/<slug>.md              static pages (about, topic archives, search, tags)
+_layouts/                     default, home, page and post templates
+assets/main.scss              all styling (light + dark theme)
+assets/images/                post and page images
+search.json                   search index generated at build time
+_config.yml                   site settings, plugins, navigation order
+.github/workflows/jekyll.yml  build and deploy workflow
 ```
 
-## 1. Get a Ghost Admin API key
+## Writing a Post
 
-In Ghost Admin: **Settings → Integrations → Add custom integration**. Copy the
-**Admin API Key** — it looks like `651a...:9f8c...` (`<id>:<hex-secret>`).
-
-## 2. Configure credentials
-
-```bash
-cp .env.example .env
-# edit .env and set GHOST_API_URL and GHOST_ADMIN_API_KEY
-```
-
-The script reads these from `.env` (or your shell environment). `.env` is
-git-ignored, so the secret never gets committed.
-
-## 3. Run the converter
-
-```bash
-python -m venv .venv
-# Windows PowerShell:
-.venv\Scripts\Activate.ps1
-# macOS/Linux:
-# source .venv/bin/activate
-
-pip install -r requirements.txt
-
-python ghost_to_jekyll.py            # writes into the current directory
-python ghost_to_jekyll.py --dry-run  # fetch + report counts, write nothing
-```
-
-## 4. Preview locally (optional)
-
-```bash
-bundle install
-bundle exec jekyll serve
-# open http://localhost:4000
-```
-
-## 5. Publish to GitHub Pages
-
-```bash
-git init
-git add .
-git commit -m "Migrate blog from Ghost to Jekyll"
-git branch -M main
-git remote add origin https://github.com/<you>/<repo>.git
-git push -u origin main
-```
-
-Then in the GitHub repo: **Settings → Pages → Build and deployment → Source:
-GitHub Actions**.
-
-This repo ships a workflow at `.github/workflows/jekyll.yml`. On every push to
-`main` it runs `bundle install` + `jekyll build` (so all the `Gemfile` plugins
-work, not just GitHub's built-in safe-mode set) and deploys the result. Watch
-progress under the repo's **Actions** tab.
-
-- **User/org site** (`<you>.github.io` repo): leave `baseurl` empty in
-  `_config.yml`. The workflow injects the correct base path automatically.
-- **Project site** (`<you>.github.io/<repo>`): the workflow passes the right
-  `--baseurl` at build time, so you don't have to hardcode it.
-
-## Creating and editing posts
-
-### Write a new post
-
-1. Create a file in `_posts/` named `YYYY-MM-DD-your-slug.md`.
-2. Add YAML front matter at the top:
+1. Create `_posts/YYYY-MM-DD-your-slug.md`. The filename sets the date and the URL.
+2. Add front matter:
 
 ```yaml
 ---
@@ -95,33 +52,37 @@ tags:
   - knx
 category: home-assistant        # shown as the badge on the card
 author: Ron
-excerpt: "One or two sentence summary shown in the post card."
+excerpt: "One or two sentence summary shown on the post card and in search."
 feature_image: /assets/images/your-image.jpg   # optional, shown at top of post
 ---
-
-Your post content here in Markdown.
 ```
 
-3. Put images in `assets/images/` and reference as `/assets/images/filename.jpg`.
-4. If your content contains `{{ }}` or `{% %}` (e.g. Home Assistant templates),
-   wrap those sections in `{% raw %}` / `{% endraw %}` so Jekyll doesn't try to
-   process them as Liquid.
+3. Write the body in Markdown. Put images in `assets/images/` and reference them as `/assets/images/filename.jpg`.
+4. If the content contains `{{ }}` or `{% %}` (Home Assistant templates for example), wrap those sections in `{% raw %}` / `{% endraw %}` so Jekyll does not try to render them.
 
-### Edit an existing post
+Drafts go in `_drafts/` without a date in the filename. They are built locally with `--drafts` and never deployed.
 
-Open the file in `_posts/` in any text editor and edit the Markdown body or
-front matter. The filename date sets the publish date on the home page list.
+## Preview Locally
 
-### Preview locally before publishing
+Requires Ruby 3.x and Bundler.
 
 ```bash
-bundle exec jekyll serve
+bundle config set --local path vendor/bundle
+bundle install
+bundle exec jekyll serve --livereload --drafts
 # open http://localhost:4000
 ```
 
-Edits are reflected on save without restarting (except `_config.yml` changes).
+Or without installing Ruby:
 
-### Publish
+```bash
+docker run --rm -it -p 4000:4000 -v "$PWD:/work" -w /work -e BUNDLE_PATH=/work/vendor/bundle ruby:3.3 \
+  bash -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --drafts"
+```
+
+Edits are reflected on save, except changes to `_config.yml` which need a restart.
+
+## Publishing
 
 ```bash
 git add _posts/YYYY-MM-DD-your-slug.md assets/images/...
@@ -129,24 +90,41 @@ git commit -m "Add post: your post title"
 git push
 ```
 
-GitHub Actions picks up the push, builds, and deploys in ~60 seconds. Watch
-progress at `https://github.com/cyberjunky/cyberjunky.github.io/actions`.
+The workflow in `.github/workflows/jekyll.yml` picks up the push, builds the site and deploys it in about a minute. Editing a file in the GitHub web editor triggers the same build. Progress is visible under the [Actions](https://github.com/cyberjunky/cyberjunky.github.io/actions) tab.
 
-### Drafts
+## Development
 
-Save unfinished posts in `_drafts/your-slug.md` (no date in filename). They
-build locally with `bundle exec jekyll serve --drafts` but are never deployed.
+- Dependencies (gems and GitHub Actions) are kept current by Dependabot, see `.github/dependabot.yml`.
+- `Gemfile.lock` is committed so the CI build uses the same gem versions as a local build.
+- Styling lives in a single `assets/main.scss`; colours are CSS custom properties defined per theme at the top of that file.
 
-## Notes & limitations
+## 💖 Support This Project
 
-- Edit `title`, `description`, `url`, and `baseurl` in `_config.yml`.
-- Post HTML is converted to Markdown with `markdownify`. Complex Ghost cards
-  (galleries, embeds, bookmark cards) become best-effort HTML/Markdown — spot
-  check a few posts.
-- Re-running is safe: images already on disk are skipped, content files are
-  overwritten with the latest from Ghost.
-- Ghost code injection, members/paywall content, and newsletter settings are
-  **not** migrated (no static equivalent).
-- The default theme is `minima`. Swap `theme:` in `_config.yml` for any
-  GitHub-Pages-supported theme, or vendor a `_layouts/` directory for full
-  control.
+If you find this blog useful, please consider supporting its continued upkeep:
+
+### 🌟 Ways to Support
+
+- **⭐ Star this repository** - Help others discover the blog
+- **💰 Financial Support** - Contribute to hosting and development costs
+- **🐛 Report Issues** - Found a broken link or an outdated post? Open an issue
+- **📖 Spread the Word** - Share posts you found useful
+
+### 💳 Financial Support Options
+
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge&logo=paypal)](https://www.paypal.me/cyberjunkynl/)
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-red.svg?style=for-the-badge&logo=github)](https://github.com/sponsors/cyberjunky)
+
+**Why Support?**
+- Keeps the blog and the open-source projects behind it actively maintained
+- Enables more write-ups and faster fixes
+- Supports infrastructure costs (domain, testing, AI, CI/CD)
+- Shows appreciation for the hours that go into each post
+
+Every contribution, no matter the size, makes a difference and is greatly appreciated! 🙏
+
+[deploy-shield]: https://img.shields.io/github/actions/workflow/status/cyberjunky/cyberjunky.github.io/jekyll.yml?branch=main&style=for-the-badge&label=deploy
+[deploy]: https://github.com/cyberjunky/cyberjunky.github.io/actions/workflows/jekyll.yml
+[commits-shield]: https://img.shields.io/github/commit-activity/y/cyberjunky/cyberjunky.github.io.svg?style=for-the-badge
+[last-commit-shield]: https://img.shields.io/github/last-commit/cyberjunky/cyberjunky.github.io.svg?style=for-the-badge
+[commits]: https://github.com/cyberjunky/cyberjunky.github.io/commits/main
+[maintenance-shield]: https://img.shields.io/badge/maintainer-cyberjunky-blue.svg?style=for-the-badge

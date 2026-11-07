@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Migrating a Ghost blog to Jekyll on GitHub Pages"
-slug: migrating-from-ghost-to-jekyll
 date: 2026-06-11 12:00:00 +0000
 tags:
   - jekyll
@@ -10,7 +9,7 @@ tags:
   - python
 category: meta
 author: Ron
-excerpt: "A small Python toolkit that exports a whole Ghost blog through the Admin API and turns it into a static Jekyll site that GitHub Pages builds and serves for free. Code included as a download."
+excerpt: "A small Python toolkit that exports a whole Ghost blog through the Admin API and turns it into a static Jekyll site that GitHub Pages builds and serves for free. Code on GitHub."
 ---
 
 I moved this blog off [Ghost](https://ghost.org/) and onto a plain
@@ -23,9 +22,9 @@ API** and writes out a ready-to-publish Jekyll site: posts, pages, tags,
 authors, and every image, all re-linked locally.
 
 **Grab the whole toolkit here:**
-👉 [**ghost-to-jekyll-toolkit.zip**]({{ "/assets/downloads/ghost-to-jekyll-toolkit.zip" | relative_url }})
+👉 [**github.com/cyberjunky/ghost-to-jekyll**](https://github.com/cyberjunky/ghost-to-jekyll)
 
-The zip contains the converter (`ghost_to_jekyll.py`), a Jekyll scaffold
+The repo contains the converter (`ghost_to_jekyll.py`), a Jekyll scaffold
 (`_config.yml`, `Gemfile`, `index.html`), a GitHub Actions deploy workflow, and
 a `README.md`.
 
@@ -106,5 +105,5 @@ Then in the repo: **Settings → Pages → Source → GitHub Actions**. Every pu
 - Re-running is safe: existing images are skipped and content files are
   overwritten with the latest from Ghost.
 
-That's the whole thing. The download has everything you need to repeat it on
+That's the whole thing. The repo has everything you need to repeat it on
 your own blog.

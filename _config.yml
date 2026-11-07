@@ -11,9 +11,6 @@ author: Ron
 url: "https://cyberjunky.nl"
 baseurl: ""
 
-# GitHub Pages builds Jekyll automatically with this theme (no CI needed).
-theme: minima
-
 # Nav order matches the screenshot design. home-assistant.md is a tag archive.
 header_pages:
   - _pages/home-assistant.md
@@ -39,7 +36,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-# Pretty post URLs that mirror Ghost's default (/slug/).
+# Pretty post URLs: /<slug>/ (slug comes from the post filename).
 permalink: /:slug/
 
 # Pull the static pages produced by the converter into the build.
@@ -61,13 +58,7 @@ paginate: 9
 paginate_path: "/page:num/"
 
 exclude:
-  - ghost_to_jekyll.py
-  - requirements.txt
   - README.md
-  - .env
-  - .env.example
   - Gemfile
   - Gemfile.lock
   - vendor
-  - tools
-  - _toolkit
