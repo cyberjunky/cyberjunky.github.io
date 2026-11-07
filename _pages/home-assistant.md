@@ -1,14 +1,16 @@
 ---
-layout: page
+layout: default
 title: Home Assistant
-slug: home-assistant
 permalink: /home-assistant/
 ---
+
+<div class="container post-grid-wrap">
+<h1 style="margin-bottom:1.5rem">Home Assistant</h1>
 
 {% assign ha_posts = site.posts | where: "category", "home-assistant" %}
 
 {% if ha_posts.size > 0 %}
-<ul class="post-grid" style="margin-top:1.5rem">
+<ul class="post-grid">
   {% for post in ha_posts %}
     {% assign badge = post.category | default: post.tags[0] %}
     <li class="post-card">
@@ -38,3 +40,4 @@ permalink: /home-assistant/
 {% else %}
 <p>No Home Assistant posts yet.</p>
 {% endif %}
+</div>

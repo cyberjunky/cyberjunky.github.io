@@ -487,6 +487,21 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .page-wrap h1 { font-size: 1.75rem; font-weight: 800; margin-bottom: 1.5rem; }
 
+/* Small floated portrait on the About me page */
+.page-content .portrait {
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+.page-content::after { content: ""; display: table; clear: both; }
+@media (max-width: 600px) {
+  .page-content .portrait { float: none; width: 140px; height: 140px; margin: 0 auto 1.5rem; }
+}
+
 /* ============================================================
    Tags Page
    ============================================================ */
