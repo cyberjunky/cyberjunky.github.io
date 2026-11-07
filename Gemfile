@@ -1,11 +1,13 @@
 source "https://rubygems.org"
 
-# Matches the exact gem versions GitHub Pages runs, so a local build is
-# identical to what GitHub serves. Run `bundle exec jekyll serve` to preview.
-gem "github-pages", group: :jekyll_plugins
-
-# Theme used by _config.yml
-gem "minima"
+# The site is built by .github/workflows/jekyll.yml with plain Jekyll, so the
+# heavyweight `github-pages` meta-gem (pinned to Jekyll 3.x) is not needed.
+#
+# Local preview:
+#   bundle config set --local path vendor/bundle
+#   bundle install
+#   bundle exec jekyll serve --livereload
+gem "jekyll", "~> 4.4"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
@@ -14,6 +16,8 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
 end
 
-# Windows / JRuby support
-gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin, :jruby]
-gem "wdm", "~> 0.1", platforms: [:mingw, :x64_mingw, :mswin]
+# `jekyll serve` needs these on Ruby 3.x
+gem "webrick"
+gem "csv"
+gem "base64"
+gem "bigdecimal"

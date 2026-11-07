@@ -1,0 +1,16 @@
+version: 2
+updates:
+  # Jekyll + plugins (Gemfile / Gemfile.lock)
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      jekyll:
+        patterns: ["*"]
+
+  # GitHub Actions used by .github/workflows/jekyll.yml
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
